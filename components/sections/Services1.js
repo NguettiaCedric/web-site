@@ -12,7 +12,7 @@ export default function Services1() {
                     <div className="sec-title light">
                         <div className="row">
                             <div className="col-lg-7">
-                                <span className="sub-title">our services</span>
+                                <span className="sub-title">our services d</span>
                                 <h2>Explore what services <br />we’re offering</h2>
                             </div>
                             <div className="col-lg-5">
