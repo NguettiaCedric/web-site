@@ -4,7 +4,7 @@ export default function Marquee1() {
     return (
         <>
 
-            <div className="marquee-section">
+            <div className="marquee-section mt-">
                 <div className="marquee">
                     <div className="marquee-group">
                         <div className="text">*Integration de solution</div>

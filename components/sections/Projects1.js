@@ -5,7 +5,7 @@ export default function Projects1() {
     return (
         <>
 
-            <section className="projects-section p-0">
+            <section className="projects-section p-2">
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         {/* <span className="sub-title">our portfolio</span> */}

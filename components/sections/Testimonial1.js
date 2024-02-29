@@ -65,7 +65,7 @@ export default function Testimonial1() {
                             <div className="inner-column">
                                 <div className="sec-title">
                                     {/* <span className="sub-title">Témoignage</span> */}
-                                    <h2>Témoignage</h2>
+                                    <h2>Témoignages</h2>
                                 </div>
                                 <div className="info-box">
                                     <i className="icon flaticon-recommend" />

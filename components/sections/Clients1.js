@@ -63,11 +63,17 @@ export default function Clients1() {
                     <div className="sponsors-outer">
                         {/*clients carousel*/}
                         <Swiper {...swiperOptions} className="clients-carousel owl-carousel owl-theme">
-                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/1.png" alt="" /></Link> </SwiperSlide>
-                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/1.png" alt="" /></Link> </SwiperSlide>
-                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/1.png" alt="" /></Link> </SwiperSlide>
-                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/1.png" alt="" /></Link> </SwiperSlide>
-                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/1.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner1.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner2.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner3.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner4.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner5.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner6.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner7.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner8.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner9.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner10.png" alt="" /></Link> </SwiperSlide>
+                            <SwiperSlide className="client-block"> <Link href="/#"><img src="/images/clients/partner11.png" alt="" /></Link> </SwiperSlide>
                         </Swiper>
                     </div>
                 </div>
