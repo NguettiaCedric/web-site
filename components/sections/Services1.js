@@ -13,7 +13,7 @@ export default function Services1() {
                         <div className="row">
                             <div className="col-lg-7">
                                 {/* <span className="sub-title">our services</span> */}
-                                <h2>Découvrez les services<br />nous proposons</h2>
+                                <h2>Découvrez nos services</h2>
                             </div>
                             <div className="col-lg-5">
                                 {/* <div className="text">There are many variations of passages of available but majority alteration in some form, by humou or randomised words.</div> */}
