@@ -13,24 +13,24 @@ export default function Footer1() {
                             <div className="contact-info-block col-lg-4 col-md-6">
                                 <div className="inner">
                                     <i className="icon fa fa-phone-square" />
-                                    <span className="sub-title">Call Anytime</span>
-                                    <div className="text"><Link href="/tel:+92(8800)48720">+92 (8800) -89 8630</Link></div>
+                                    <span className="sub-title">Appeler</span>
+                                    <div className="text"><Link href="/tel:+225 07 07 540 555">+225 07 07 540 555</Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
                             <div className="contact-info-block col-lg-4 col-md-6">
                                 <div className="inner">
                                     <i className="icon fa fa-envelope" />
-                                    <span className="sub-title">Send Email</span>
-                                    <div className="text"><Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></div>
+                                    <span className="sub-title">Email</span>
+                                    <div className="text"><Link href="/mailto:contact@croissancenumerique.ci">contact@croissancenumerique.ci</Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
                             <div className="contact-info-block col-lg-4 col-md-6">
                                 <div className="inner">
                                     <i className="icon fa fa-map-marker" />
-                                    <span className="sub-title">Addres</span>
-                                    <div className="text">30 Broklyn Golden Street. USA</div>
+                                    <span className="sub-title">Adresse</span>
+                                    <div className="text">ATTOBAN, 30 ème arrondissement</div>
                                 </div>
                             </div>
                         </div>

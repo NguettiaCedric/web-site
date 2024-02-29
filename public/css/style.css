@@ -43,7 +43,7 @@ License: copyright commercial
 :root {
   --theme-color-light: #ffffff;
   --theme-color-dark: #18191c;
-  --theme-color1: #fec63f;
+  --theme-color1: #ffdd14;
   --bg-theme-color1: var(--theme-color1);
   --theme-color2: #18191c;
   --bg-theme-color2: var(--theme-color2);
@@ -14117,7 +14117,7 @@ Sidebar
   }
 }
 .contact-info-block .inner .text {
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
   line-height: 24px;
 }
