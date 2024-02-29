@@ -9,7 +9,7 @@ export default function Projects1() {
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         {/* <span className="sub-title">our portfolio</span> */}
-                        <h2>Découvrez nos <br/> projets</h2>
+                        <h2 className="mt-2">Découvrez nos <br/> projets</h2>
                     </div>
                     <div className="outer-box">
                         <div className="row">

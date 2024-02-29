@@ -35,7 +35,7 @@ export default function BusinessOne({ addClass }) {
                                         <div className="text">Knowledge of technologies rules better than anyone which we apply in our daily work</div>
                                     </div>
                                 </div> */}
-                                <div className="">
+                                <div className="" style={{marginTop:'-9px'}}>
                                     {/* <div className="author-info">
                                         <div className="inner">
                                             <figure className="thumb"><img src="/images/resource/avatar.jpg" alt="" /></figure>
@@ -52,7 +52,7 @@ export default function BusinessOne({ addClass }) {
                             <div className="image-box">
                                 <span className="icon-dots bounce-y" />
                                 {/* <span className="icon-circle zoom-one" /> */}
-                                <figure className="image-1 wow fadeIn"><img src="/images/resource/about-1.jpg" alt="" /></figure>
+                                <figure className="image-1 wow fadeIn"><img src="/images/resource/sap-busines.png" alt="" /></figure>
                                 {/* <figure className="image-2 wow fadeIn" data-wow-delay="600ms"><img src="/images/resource/about-2.jpg" alt="" /></figure> */}
                                 {/* <div className="exp-box">
                                     <div className="inner">

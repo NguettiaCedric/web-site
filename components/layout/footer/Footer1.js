@@ -44,7 +44,7 @@ export default function Footer1() {
                             <div className="footer-column col-xl-5 col-lg-4 col-md-12">
                                 <div className="footer-widget about-widget">
                                     <div className="widget-content">
-                                        <div className="logo"><Link href="/#"> <img src="/images/logo.png" alt="" /></Link></div>
+                                        <div className="logo"><Link href="/#"> <img src="/images/logo-cn0.png" alt="logo"  style={{width:'100px'}}/></Link></div>
                                         <div className="text">Welcome to our digital agency. Lorem ipsum simply free text dolor sited amet cons cing elit.</div>
                                         <ul className="social-icon-two">
                                             <li><Link href="/#"><i className="fab fa-twitter" /></Link></li>

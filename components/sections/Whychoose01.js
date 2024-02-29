@@ -53,7 +53,7 @@ export default function Whychoose01() {
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 <div className="image-box">
-                                    <figure className="image anim-overlay"><img src="/images/resource/why-us.jpg" alt="" /></figure>
+                                    <figure className="image anim-overlay"><img src="/images/resource/apropos.jpg" alt="" /></figure>
                                     {/* <div className="rounded-text">
                                         <img src="/images/resource/round-text.png" alt="" />
                                         <span className="letter">D</span>
