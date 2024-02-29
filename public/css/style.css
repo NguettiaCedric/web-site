@@ -4631,7 +4631,7 @@ Section Title
   position: relative;
   margin-bottom: 50px;
 }
-.about-section .content-column .inner-column {
+.about-section .content-column .inner-column .it{
   position: relative;
   padding-left: 70px;
 }
@@ -4749,7 +4749,7 @@ Section Title
 }
 .about-section .image-column {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: -50px;
 }
 @media (max-width: 991.98px) {
   .about-section .image-column {

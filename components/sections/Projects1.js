@@ -8,8 +8,8 @@ export default function Projects1() {
             <section className="projects-section p-0">
                 <div className="auto-container">
                     <div className="sec-title text-center">
-                        <span className="sub-title">our portfolio</span>
-                        <h2>Explore our new recently <br />completed projects.</h2>
+                        {/* <span className="sub-title">our portfolio</span> */}
+                        <h2>Découvrez nos <br/> projets</h2>
                     </div>
                     <div className="outer-box">
                         <div className="row">
