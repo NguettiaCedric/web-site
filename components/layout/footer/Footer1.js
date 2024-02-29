@@ -99,7 +99,7 @@ export default function Footer1() {
                 {/*  Footer Bottom */}
                 <div className="footer-bottom">
                     <div className="auto-container">
-                        <div className="copyright-text">© Copyright reserved by <Link href="/#">kodesolution.com</Link></div>
+                        <div className="copyright-text">© Copyright tous droits réservés <Link href="https://croissancenumerique.ci">croissancenumerique.ci</Link></div>
                     </div>
                 </div>
             </footer>
