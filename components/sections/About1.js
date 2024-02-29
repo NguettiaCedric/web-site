@@ -12,35 +12,39 @@ export default function About1({ addClass }) {
                         <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight">
                             <div className="inner-column">
                                 <div className="sec-title">
-                                    <span className="sub-title">get to know us</span>
-                                    <h2>The best digital marketing solutions</h2>
-                                    <div className="text">There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't slightly.</div>
+                                    {/* <span className="sub-title">get to know us</span> */}
+                                    <h2>A propos</h2>
+                                    <div className="text" style={{textAlign:'justify'}}>
+                                        Croissance Numerique est une société ivoirienne d’experts, spécialisée dans la transformation digitale du secteur agricole. Avec 7 ans d’expérience, Croissance Numerique se positionne comme l'accélérateur
+                                        de la transition digitale du secteur agricole en Afrique francophone. Grâce à notre maîtrise de solutions de pointe comme les ERP SAP, les plateformes de paiement mobile ou les solutions de traçabilités SAP RSM,
+                                        nous boostons la performance et la rentabilité de nos clients sur le long terme.
+                                    </div>
                                 </div>
                                 {/* Info Box */}
-                                <div className="info-box">
+                                {/* <div className="info-box">
                                     <div className="inner">
                                         <i className="icon flaticon-targeted-marketing" />
                                         <h5 className="title">Leading in marketing</h5>
                                         <div className="text">Knowledge of technologies rules better than anyone which we apply in our daily work</div>
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* Info Box */}
-                                <div className="info-box">
+                                {/* <div className="info-box">
                                     <div className="inner">
                                         <i className="icon flaticon-diplomat" />
                                         <h5 className="title">Expert developers</h5>
                                         <div className="text">Knowledge of technologies rules better than anyone which we apply in our daily work</div>
                                     </div>
-                                </div>
-                                <div className="other-info">
-                                    <div className="author-info">
+                                </div> */}
+                                <div className="">
+                                    {/* <div className="author-info">
                                         <div className="inner">
                                             <figure className="thumb"><img src="/images/resource/avatar.jpg" alt="" /></figure>
                                             <h5 className="name">Aleesha brown</h5>
                                             <span className="designation">CEO &amp; CO Founder</span>
                                         </div>
-                                    </div>
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
+                                    </div> */}
+                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>
                         </div>

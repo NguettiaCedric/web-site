@@ -18,8 +18,8 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1}>
                 <Slider1 />
-                <Services1 />
                 <About1 addClass={"pt-0"} />
+                <Services1 />
                 <Marquee1 />
                 <Cta />
                 <Faqs />

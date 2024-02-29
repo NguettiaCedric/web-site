@@ -732,7 +732,7 @@ li {
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite linear;
           animation: pulse 1s infinite linear;
-  background-image: url(../images/favicon.png);
+  background-image: url(../images/faviconV2.png);
   content: "";
 }
 
@@ -5022,7 +5022,7 @@ Section Title
 ***/
 .services-section {
   position: relative;
-  padding: 120px 0 80px;
+  padding: 50px 0 80px;
 }
 .services-section .bg-pattern-1 {
   max-height: 435px;

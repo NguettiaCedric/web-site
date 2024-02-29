@@ -45,7 +45,9 @@ export default function Menu() {
                     </ul>
                 </li> */}
                 <li><Link href="#">Projets réalisés</Link></li>
+                <li><Link href="#">Blog</Link></li>
                 <li><Link href="/page-contact">Contact</Link></li>
+                
             </ul>
         </>
     )

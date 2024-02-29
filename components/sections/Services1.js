@@ -12,12 +12,12 @@ export default function Services1() {
                     <div className="sec-title light">
                         <div className="row">
                             <div className="col-lg-7">
-                                <span className="sub-title">our services d</span>
-                                <h2>Explore what services <br />we’re offering</h2>
+                                {/* <span className="sub-title">our services</span> */}
+                                <h2>Découvrez les services<br />nous proposons</h2>
                             </div>
-                            <div className="col-lg-5">
+                            {/* <div className="col-lg-5">
                                 <div className="text">There are many variations of passages of available but majority alteration in some form, by humou or randomised words.</div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="row">
@@ -29,7 +29,7 @@ export default function Services1() {
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-web-development" />
-                                    <h5 className="title">Website <br />development</h5>
+                                    <h5 className="title">Integration de solution</h5>
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon flaticon-web-development" />
@@ -42,11 +42,11 @@ export default function Services1() {
                         <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/service-2.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/images/resource/service-1.jpg" alt="" /></figure>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-design" />
-                                    <h5 className="title">Graphic <br />Designing</h5>
+                                    <h5 className="title">Accompagnement Digital</h5>
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon flaticon-design" />
@@ -63,7 +63,7 @@ export default function Services1() {
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-megaphone" />
-                                    <h5 className="title">Digital <br />marketing</h5>
+                                    <h5 className="title">Développement d'appliation</h5>
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon flaticon-megaphone" />

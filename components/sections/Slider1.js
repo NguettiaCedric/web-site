@@ -39,7 +39,7 @@ export default function Slider1() {
                             <div className="content-box">
                                 <h1 className="title animate-1">Shaping the <br />Perfect Solution <br />for your business</h1>
                                 <div className="btn-box animate-2">
-                                    <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">Discover more</span></Link>
+                                    <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ export default function Slider1() {
                             <div className="content-box">
                                 <h1 className="title animate-1">Shaping the <br />Perfect Solution <br />for your Agency</h1>
                                 <div className="btn-box animate-2">
-                                    <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">Discover more</span></Link>
+                                    <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>
                         </div>

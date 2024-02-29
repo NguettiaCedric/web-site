@@ -14,19 +14,20 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             <ul className="list-style-one">
                                 <li><i className="fa fa-envelope" /> <Link href="/mailto:contact@croissancenumerique.ci"><span className="text-white">contact@croissancenumerique.ci </span></Link></li>
                                 <li><i className="fa fa-map-marker" /> <span className="text-white">  ATTOBAN, 30 ème arrondissement </span></li>
-                                <li><i className="fa-thin fa-phone" />  <span className="text-white">+225 07 07 17 04 07</span></li>
+                                <li><i className="fa-solid fa-phone" />  <span className="text-white">+225 07 07 17 04 07</span></li>
                             </ul>
                         </div>
-                        <div className="top-right">
+                        <div className="top-right" >
                             {/* <ul className="useful-links">
                                 <li><Link href="/#">Help</Link></li>
                                 <li><Link href="/#">Support</Link></li>
                                 <li><Link href="/#">Contact</Link></li>
                             </ul> */}
-                            <ul className="social-icon-one">
+                            <ul className="social-icon-one" style={{alignItems: 'center',}}>
                                 {/* <li><Link href="/#"><span className="fab fa-twitter" /></Link></li> */}
                                 <li><Link href="/#"><span className="fab fa-facebook-square" /></Link></li>
                                 <li><Link href="/#"><span className="fa-brands fa-linkedin" /></Link></li>
+                                <a class="theme-btn btn-style-one" style={{marginLeft: '11px',}} href=""><span class="btn-title">Demande de demo</span></a>
                                 {/* 
                                 <li><Link href="/#"><span className="fab fa-facebook-square" /></Link></li>
                                 <li><Link href="/#"><span className="fab fa-pinterest-p" /></Link></li>
@@ -40,7 +41,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                     {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><img src="/images/logo - Copie.png" style={{ height: '50px' }} alt="" title="Tronis" /></Link></div>
+                            <div className="logo"><Link href="/"><img src="/images/logo-cn.png" style={{ height: '50px' }} alt="" title="Tronis" /></Link></div>
                         </div>
                         {/*Nav Box*/}
                         <div className="nav-outer">
@@ -128,7 +129,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/" ><img src="/images/logo - Copie.png" alt=""  /></Link>
+                                <Link href="/" ><img src="/images/logo-cn.png" alt=""  /></Link>
                             </div>
                             {/*Right Col*/}
                             <div className="nav-outer">
