@@ -5,7 +5,7 @@ export default function About1({ addClass }) {
     return (
         <>
 
-            <section className={`about-section ${addClass}`}>
+            <section className={`about-section ${addClass}`} style={{marginTop:'1px'}}>
                 <div className="auto-container">
                     <div className="row">
                         {/* Content Column */}
@@ -58,8 +58,8 @@ export default function About1({ addClass }) {
                                 <div className="exp-box">
                                     <div className="inner">
                                         <i className="icon flaticon-promotion" />
-                                        <span className="count">38+</span>
-                                        <div className="text">Work Experience</div>
+                                        <span className="count">7</span>
+                                        <div className="text">ans d’expérience</div>
                                     </div>
                                 </div>
                             </div>
