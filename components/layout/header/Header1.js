@@ -80,25 +80,25 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
-                                    <span className="title">Call Now</span>
-                                    <Link href="/tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <span className="title">Appeler</span>
+                                    <Link href="/tel:+225 07 07 17 04 07">+225 07 07 17 04 07</Link>
                                 </div>
                             </li>
                             <li>
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
-                                    <span className="title">Send Email</span>
-                                    <Link href="/mailto:help@company.com">help@company.com</Link>
+                                    <span className="title">Email</span>
+                                    <Link href="/mailto:contact@croissancenumerique.ci">contact@croissancenumerique.ci</Link>
                                 </div>
                             </li>
                             <li>
                                 {/* Contact Info Box */}
-                                <div className="contact-info-box">
+                                {/* <div className="contact-info-box">
                                     <span className="icon lnr-icon-clock" />
                                     <span className="title">Send Email</span>
                                     Mon - Sat 8:00 - 6:30, Sunday - CLOSED
-                                </div>
+                                </div> */}
                             </li>
                         </ul>
                         <ul className="social-links">
@@ -108,7 +108,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             <li><Link href="/#"><i className="fab fa-instagram" /></Link></li>
                         </ul>
                     </nav>
-                </div>{/* End Mobile Menu */}
+                </div>
+                {/* End Mobile Menu */}
                 {/* Header Search */}
                 <div className="search-popup">
                     <span className="search-back-drop" onClick={handleSearch} />
