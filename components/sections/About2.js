@@ -22,47 +22,31 @@ export default function About2() {
                             <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
                                 <div className="inner-column">
                                     <div className="sec-title">
-                                        <span className="sub-title">Welcome to Agency</span>
-                                        <h2>Leading the best digital agency in town</h2>
-                                        <div className="text">There are many variations of simply free text passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't slightly.</div>
+                                        <h2>Pourquoi SAP Business One ?</h2>
+                                        <div className="text">
+                                            <p className='text-justify'>
+                                            SAP Business One est la solution idéale pour les petites et moyennes entreprises cherchant à
+                            optimiser leurs opérations. Voici les raisons pour lesquelles vous devez l'utiliser pour votre
+                            gestion
+                                            </p>
+                                        </div>
                                     </div>
                                     <div className="row">
                                         <div className="info-box col-lg-6 col-md-6">
                                             <div className="inner">
-                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" /> Digital marketing</h5>
-                                                <div className="text">Knowledge of technologies rules better than anyone</div>
+                                                <h5 className="title"><i className="icon fa fa-circle-check" /> INTÉGRATION COMPLÈTE DES PROCESSUS COMMERCIAUX</h5>
+                                                <div className="text" style={{textAlign:'justify'}}>SAP Business One offre une intégration complète des processus de gestion des ventes, des achats, de l'inventaire, de la comptabilité et des relations avec les clients.</div>
                                             </div>
                                         </div>
                                         <div className="info-box col-lg-6 col-md-6">
                                             <div className="inner">
-                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" /> Quality results</h5>
-                                                <div className="text">Knowledge of technologies rules better than anyone</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/*Skills*/}
-                                    <div className="skills">
-                                        {/*Skill Item*/}
-                                        <div className="skill-item">
-                                            <div className="skill-header">
-                                                <h5 className="skill-title">Marketing</h5>
-                                            </div>
-                                            <div className="skill-bar">
-                                                <div className="bar-inner">
-                                                    <div className="bar progress-line" style={{width:"77%"}}>
-                                                        <div className="skill-percentage">
-                                                            <div className="count-box">
-                                                                <CounterUp count={77} time={3} />
-                                                                %</div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <h5 className="title"><i className="icon fa fa-circle-check" /> ANALYSE ET REPORTING AVANCÉS</h5>
+                                                <div className="text" style={{textAlign:'justify'}}>SAP Business One offre des capacités avancées d'analyse et de reporting, ce qui permet aux entreprises de prendre des décisions plus éclairées basées sur des données en temps réel.</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="bottom-box">
-                                        <Link href="/page-about" className="theme-btn btn-style-one hvr-dark"><span className="btn-title">Discover more</span></Link>
+                                        <Link href="/page-about" className="theme-btn btn-style-one hvr-dark"><span className="btn-title">Demander une démo</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -71,15 +55,7 @@ export default function About2() {
                                 <div className="inner-column wow fadeInLeft">
                                     <div className="image-box">
                                         <span className="icon-dots2" />
-                                        <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about2-1.jpg" alt="" /></figure>
-                                        <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about2-2.jpg" alt="" /></figure>
-                                        <div className="exp-box">
-                                            <div className="inner">
-                                                <i className="icon flaticon-promotion" />
-                                                <span className="count">38+</span>
-                                                <h6 className="title">Work Experience</h6>
-                                            </div>
-                                        </div>
+                                        <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/sap-business-one.png" alt="" /></figure>
                                     </div>
                                 </div>
                             </div>

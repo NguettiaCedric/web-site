@@ -2,5 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/sap-business-one": "pages/sap-business-one.js",
+  "/sap-rsm": "pages/sap-rsm.js",
+  "/integration-de-solution": "pages/integration-de-solution.js",
+  "/accompagnement-digital": "pages/accompagnement-digital.js",
+  "/developpement-web": "pages/developpement-web.js"
 }
