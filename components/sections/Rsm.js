@@ -52,7 +52,7 @@ export default function Rsm({ addClass }) {
                             <div className="image-box">
                                 <span className="icon-dots bounce-y" />
                                 {/* <span className="icon-circle zoom-one" /> */}
-                                <figure className="image-1 wow fadeIn"><img src="/images/resource/rsmb.png" alt="" /></figure>
+                                <figure className="image-1 wow fadeIn"><img src="/images/resource/rsm01.png" alt="" /></figure>
                                 {/* <figure className="image-2 wow fadeIn" data-wow-delay="600ms"><img src="/images/resource/about-2.jpg" alt="" /></figure> */}
                                 {/* <div className="exp-box">
                                     <div className="inner">
