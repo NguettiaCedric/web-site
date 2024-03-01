@@ -81,7 +81,7 @@ export default function Services1() {
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-visitor" />
-                                    <h5 className="title">Mobile <br />applications</h5>
+                                    <h5 className="title">Switch <br /></h5>
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon flaticon-visitor" />

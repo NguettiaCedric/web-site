@@ -43,7 +43,7 @@ License: copyright commercial
 :root {
   --theme-color-light: #ffffff;
   --theme-color-dark: #18191c;
-  --theme-color1: #fec63f;
+  --theme-color1: #ffdd14;
   --bg-theme-color1: var(--theme-color1);
   --theme-color2: #18191c;
   --bg-theme-color2: var(--theme-color2);
@@ -4631,7 +4631,7 @@ Section Title
   position: relative;
   margin-bottom: 50px;
 }
-.about-section .content-column .inner-column {
+.about-section .content-column .inner-column .it{
   position: relative;
   padding-left: 70px;
 }
@@ -4749,7 +4749,7 @@ Section Title
 }
 .about-section .image-column {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: -50px;
 }
 @media (max-width: 991.98px) {
   .about-section .image-column {
@@ -5994,7 +5994,7 @@ Section Title
 ***/
 .testimonial-section {
   position: relative;
-  padding: 120px 0 120px;
+  padding: 70px 0 30px;
 }
 .testimonial-section .title-column {
   position: relative;
@@ -14117,7 +14117,7 @@ Sidebar
   }
 }
 .contact-info-block .inner .text {
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
   line-height: 24px;
 }

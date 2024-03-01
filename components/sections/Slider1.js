@@ -34,10 +34,10 @@ export default function Slider1() {
                 <Swiper {...swiperOptions} className="banner-carousel owl-carousel owl-theme default-navs">
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/1.jpg)' }} />
+                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider1.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
-                                <h1 className="title animate-1">Shaping the <br />Perfect Solution <br />for your business</h1>
+                                <h1 className="title animate-1">SAP <br/> Business One</h1>
                                 <div className="btn-box animate-2">
                                     <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
@@ -46,10 +46,21 @@ export default function Slider1() {
                     </SwiperSlide>
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/3.jpg)' }} />
+                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider1.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
-                                <h1 className="title animate-1">Shaping the <br />Perfect Solution <br />for your Agency</h1>
+                                <h1 className="title animate-1">SAP RSM</h1>
+                                <div className="btn-box animate-2">
+                                    <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="slide-item">
+                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider3.jpg)' }} />
+                        <div className="auto-container">
+                            <div className="content-box">
+                                <h1 className="title animate-1">Développement d’applications</h1>
                                 <div className="btn-box animate-2">
                                     <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>

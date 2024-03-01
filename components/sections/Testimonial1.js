@@ -64,12 +64,12 @@ export default function Testimonial1() {
                         <div className="title-column col-lg-6 col-md-12">
                             <div className="inner-column">
                                 <div className="sec-title">
-                                    <span className="sub-title">our testimonials</span>
-                                    <h2>What they’re talking about agency?</h2>
+                                    {/* <span className="sub-title">Témoignage</span> */}
+                                    <h2>Témoignages</h2>
                                 </div>
                                 <div className="info-box">
                                     <i className="icon flaticon-recommend" />
-                                    <div className="text">We’re trusted by more then<br /> 3800 satisfied &amp; happy customers</div>
+                                    {/* <div className="text">We’re trusted by more then<br /> 3800 satisfied &amp; happy customers</div> */}
                                 </div>
                             </div>
                         </div>
