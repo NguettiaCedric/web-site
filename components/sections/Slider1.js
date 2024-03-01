@@ -46,7 +46,7 @@ export default function Slider1() {
                     </SwiperSlide>
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider1.jpg)' }} />
+                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider2.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
                                 <h1 className="title animate-1">SAP RSM</h1>
