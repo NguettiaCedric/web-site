@@ -585,7 +585,7 @@ textarea.form-control {
   background-color: var(--theme-color2);
 }
 .dark-layout .preloader:after {
-  background-image: url(../images/logo.png);
+  background-image: url(../images/faviconV2.png);
 }
 .dark-layout .sticky-header {
   background-color: var(--theme-color2);

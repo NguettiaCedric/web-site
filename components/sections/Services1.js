@@ -5,7 +5,7 @@ export default function Services1() {
     return (
         <>
 
-            <section className="services-section">
+            <section className="services-section" style={{marginTop: '-65px'}}>
                 <div className="bg-shape" />
                 <div className="bg bg-pattern-1" />
                 <div className="auto-container">
