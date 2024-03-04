@@ -12,7 +12,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                         <div className="top-left">
                             {/* Info List */}
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope" /> <Link href="/mailto:contact@croissancenumerique.ci"><span className="text-white">contact@croissancenumerique.ci </span></Link></li>
+                                <li><i className="fa fa-envelope" /> <Link href="/mailto:contact@croissancenumerique.ci"><span className="text-white">contact@croissancenumerique.ci</span></Link></li>
                                 <li><i className="fa fa-map-marker" /> <span className="text-white">  ATTOBAN, 30 ème arrondissement </span></li>
                                 <li><i className="fa-solid fa-phone" />  <span className="text-white">+225 07 07 17 04 07</span></li>
                             </ul>
@@ -27,7 +27,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 {/* <li><Link href="/#"><span className="fab fa-twitter" /></Link></li> */}
                                 <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL"><span className="fab fa-facebook-square" style={{color:'#ffdd14'}} /></Link></li>
                                 <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/"><span className="fa-brands fa-linkedin" style={{color:'#ffdd14'}}/></Link></li>
-                                <a class="theme-btn btn-style-one" style={{marginLeft: '11px',}} href="/page-demo"><span class="btn-title">Demande de demo</span></a>
+                                {/* <a class="theme-btn btn-style-one" style={{marginLeft: '11px',}} href="/page-demo"><span class="btn-title">Demande de demo</span></a> */}
+                                <li class="theme-btn btn-style-one" style={{marginLeft: '11px', color:'black'}}><Link href="/page-demo"><span class="btn-title">Demande de demo</span></Link></li>
+                                
                                 {/* 
                                 <li><Link href="/#"><span className="fab fa-facebook-square" /></Link></li>
                                 <li><Link href="/#"><span className="fab fa-pinterest-p" /></Link></li>
