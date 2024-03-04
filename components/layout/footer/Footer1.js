@@ -45,12 +45,12 @@ export default function Footer1() {
                                 <div className="footer-widget about-widget">
                                     <div className="widget-content">
                                         <div className="logo"><Link href="/#"> <img src="/images/logo-cn0.png" alt="logo"  style={{width:'100px'}}/></Link></div>
-                                        <div className="text">Welcome to our digital agency. Lorem ipsum simply free text dolor sited amet cons cing elit.</div>
+                                        <div className="text-white">Croissance Numerique l'accélérateur de la transition digitale <br /> du secteur agricole en Afrique francophone.</div>
                                         <ul className="social-icon-two">
-                                            <li><Link href="/#"><i className="fab fa-twitter" /></Link></li>
-                                            <li><Link href="/#"><i className="fab fa-facebook" /></Link></li>
-                                            <li><Link href="/#"><i className="fab fa-pinterest" /></Link></li>
-                                            <li><Link href="/#"><i className="fab fa-instagram" /></Link></li>
+                                            {/* <li><Link href="/#"><i className="fab fa-twitter" /></Link></li> */}
+                                            <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL"><i className="fab fa-facebook" /></Link></li>
+                                            <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/"><i className="fab fa-linkedin" /></Link></li>
+                                            {/* <li><Link href="/#"><i className="fab fa-pinterest" style={{color:'#ffdd14'}} /></Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -58,37 +58,42 @@ export default function Footer1() {
                             {/* Footer COlumn */}
                             <div className="footer-column col-xl-4 col-lg-4 col-md-6">
                                 <div className="widget links-widget">
-                                    <h5 className="widget-title">Explore</h5>
+                                    <h5 className="widget-title">Liens Utiles</h5>
                                     <div className="widget-content">
-                                        <ul className="user-links two-column">
-                                            <li><Link href="/#">Meet Our Team</Link></li>
-                                            <li><Link href="/#">About</Link></li>
-                                            <li><Link href="/#">What We Do</Link></li>
-                                            <li><Link href="/#">Support</Link></li>
-                                            <li><Link href="/#">Latest News</Link></li>
-                                            <li><Link href="/#">New Projects</Link></li>
-                                            <li><Link href="/#">Contact</Link></li>
-                                            <li><Link href="/#">Shop</Link></li>
-                                            <li><Link href="/#">Faqs</Link></li>
+                                                                                
+                                        <ul className="user-links">
+                                            <li><Link href="/#" className="text-white">Accueil</Link></li>
+                                            <li><Link href="/#" className="text-white">A propos</Link></li>
+                                            <li><Link href="/#" className="text-white">SAP Business One</Link></li>
+                                            <li><Link href="/#" className="text-white">SAP RSM</Link></li>
+                                            <li><Link href="/#" className="text-white">Switch</Link></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+
+
                             {/* Footer COlumn */}
                             <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
                                 <div className="widget newsletter-widget">
-                                    <h5 className="widget-title">Newsletter</h5>
+                                    <h5 className="widget-title">Nos services</h5>
                                     <div className="widget-content">
-                                        <div className="text">Subsrcibe for our latest resources</div>
                                         <div className="subscribe-form">
-                                            <form method="post" action="#">
+                                            <li><Link href="/integration-de-solution" className="text-white">Integration de Solutions</Link></li>
+                                            <li><Link href="/accompagnement-digital" className="text-white">Accompagnement Digital</Link></li>
+                                            <li><Link href="/developpement-web" className="text-white">Développement web</Link></li>
+
+                                            {/* <form method="post" action="#">
                                                 <div className="form-group">
                                                     <input type="email" name="email" className="email" placeholder="Email Address" required />
                                                 </div>
                                                 <div className="form-group">
                                                     <button type="button" className="theme-btn btn-style-one hover-light"><span className="btn-title">Subscribe</span></button>
                                                 </div>
-                                            </form>
+                                            </form> */}
+
+
                                         </div>
                                     </div>
                                 </div>

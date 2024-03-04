@@ -10,8 +10,8 @@ export default function Contactpage() {
 			<div className="row">
 				<div className="col-xl-7 col-lg-6">
 					<div className="sec-title">
-						<span className="sub-title">Send us email</span>
-						<h2>Feel free to write</h2>
+						{/* <span className="sub-title">Send us email</span> */}
+						<h2>veuillez remplir ces champs</h2>
 					</div>
 					<form id="contact_form" name="contact_form" className="" action="" method="get">
 						<div className="row">
@@ -51,9 +51,10 @@ export default function Contactpage() {
 				<div className="col-xl-5 col-lg-6">
 					<div className="contact-details__right">
 						<div className="sec-title">
-							<span className="sub-title">Need any help?</span>
-							<h2>Get in touch with us</h2>
-							<div className="text">Lorem ipsum is simply free text available dolor sit amet consectetur notted adipisicing elit sed do eiusmod tempor incididunt simply dolore magna.</div>
+							{/* <span className="sub-title">Need any help?</span> */}
+							{/* <h2>Get in touch with us</h2> */}
+							{/* <div className="text">Lorem ipsum is simply free text available dolor sit amet consectetur notted adipisicing elit
+							 sed do eiusmod tempor incididunt simply dolore magna.</div> */}
 						</div>
 						<ul className="list-unstyled contact-details__info">
 							<li>
@@ -61,8 +62,8 @@ export default function Contactpage() {
 									<span className="lnr-icon-phone-plus"></span>
 								</div>
 								<div className="text">
-									<h6>Have any question?</h6>
-									<a href="tel:980089850"><span>Free</span> +92 (020)-9850</a>
+									<h6>Contactez-nous</h6>
+									<a href="tel:980089850">+225 07 07 17 04 07</a>
 								</div>
 							</li>
 							<li>
@@ -70,8 +71,8 @@ export default function Contactpage() {
 									<span className="lnr-icon-envelope1"></span>
 								</div>
 								<div className="text">
-									<h6>Write email</h6>
-									<a href="mailto:needhelp@company.com">needhelp@company.com</a>
+									<h6>Email</h6>
+									<a href="mailto:contact@croissancenumerique.ci">contact@croissancenumerique.ci</a>
 								</div>
 							</li>
 							<li>
@@ -79,8 +80,8 @@ export default function Contactpage() {
 									<span className="lnr-icon-location"></span>
 								</div>
 								<div className="text">
-									<h6>Visit anytime</h6>
-									<span>66 broklyn golden street. New York</span>
+									<h6>Riviera Attoban</h6>
+									<span>30ème Arrondissement</span>
 								</div>
 							</li>
 						</ul>
