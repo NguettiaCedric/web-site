@@ -12,11 +12,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -27,15 +22,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/accompagnement-digital": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/accompagnement-digital.js"
+    ],
     "/integration-de-solution": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/integration-de-solution.js"
-    ],
-    "/sap-rsm": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sap-rsm.js"
     ]
   },
   "ampFirstPages": []

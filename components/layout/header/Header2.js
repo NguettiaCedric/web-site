@@ -36,7 +36,7 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                     {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><img src="/images/logo.png" alt="" title="Tronis" /></Link></div>
+                            <div className="logo"><Link href="/"><img src="/images/logo-cn0.png" style={{ height: '50px' }} alt="" title="Tronis" /></Link></div>
                         </div>
                         {/*Nav Box*/}
                         <div className="nav-outer">

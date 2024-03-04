@@ -26,16 +26,16 @@ export default function Services1() {
                         <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/service-1.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/images/resource/integration-solution.png" alt="" /></figure>
                                 </div>
                                 <div className="content-box">
-                                    <i className="icon flaticon-web-development" />
+                                    <i className="icon flaticon-design" />
                                     <h5 className="title">Integration de solution</h5>
                                 </div>
                                 <div className="hover-content">
-                                    <i className="icon flaticon-web-development" />
-                                    <h5 className="title"><Link href="/page-service-details">Website <br />Development</Link></h5>
-                                    <div className="text">There are many variations of passages of available but the majority.</div>
+                                    <i className="icon flaticon-design" />
+                                    <h5 className="title"><Link href="/page-service-details"> Integration de solution</Link></h5>
+                                    <div className="text">Nous vous accompagnons dans l'integration de solution.</div>
                                 </div>
                             </div>
                         </div>
@@ -43,33 +43,33 @@ export default function Services1() {
                         <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/service-1.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/images/resource/digital1-solution.png" alt="solution digital" /></figure>
                                 </div>
                                 <div className="content-box">
-                                    <i className="icon flaticon-design" />
+                                    <i className="icon flaticon-megaphone" />
                                     <h5 className="title">Accompagnement Digital</h5>
                                 </div>
                                 <div className="hover-content">
-                                    <i className="icon flaticon-design" />
-                                    <h5 className="title"><Link href="/page-service-details">Graphic <br />Designing</Link></h5>
-                                    <div className="text">There are many variations of passages of available but the majority.</div>
+                                    <i className="icon flaticon-megaphone" />
+                                    <h5 className="title"><Link href="/page-service-details">Accompagnement Digital</Link></h5>
+                                    <div className="text">Nous vous accompagnons à travers la transition vers des solutions numériques.</div>
                                 </div>
                             </div>
                         </div>
                         {/* Service Block */}
                         <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
-                            <div className="inner-box">
+                            <div className="inner-box"> 
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/service-3.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/images/resource/dev-solution.png" alt="" /></figure>
                                 </div>
                                 <div className="content-box">
-                                    <i className="icon flaticon-megaphone" />
+                                    <i className="icon  flaticon-web-development" />
                                     <h5 className="title">Développement d'appliation</h5>
                                 </div>
                                 <div className="hover-content">
-                                    <i className="icon flaticon-megaphone" />
+                                    <i className="icon  flaticon-web-development" />
                                     <h5 className="title"><Link href="/page-service-details">Application <br />Development</Link></h5>
-                                    <div className="text">There are many variations of passages of available but the majority.</div>
+                                    <div className="text">Nous mettons notre expertise à votre service pour vous guider tout au long du développement d'applications.</div>
                                 </div>
                             </div>
                         </div>
@@ -77,15 +77,15 @@ export default function Services1() {
                         <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/service-4.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/images/resource/swtich-solution.png" alt="swtich" /></figure>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-visitor" />
-                                    <h5 className="title">Switch <br /></h5>
+                                    <h5 className="title">Switch <br/> <br/> </h5>
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon flaticon-visitor" />
-                                    <h5 className="title"><Link href="/page-service-details">SEO &amp; Content <br />Writing</Link></h5>
+                                    <h5 className="title"><Link href="/page-service-details">Switch <br /></Link></h5>
                                     <div className="text">There are many variations of passages of available but the majority.</div>
                                 </div>
                             </div>
