@@ -124,10 +124,10 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/"><img src="/images/logo-2.png" alt="" /></Link>
+                                <Link href="/"><img src="/images/logo-cn.png" alt="" /></Link>
                             </div>
                             {/*Right Col*/}
-                            <div className="nav-outer">
+                            <div className="nav-outer">     
                                 {/* Main Menu */}
                                 <nav className="main-menu">
                                     <div className="navbar-collapse show collapse clearfix">

@@ -27,7 +27,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 {/* <li><Link href="/#"><span className="fab fa-twitter" /></Link></li> */}
                                 <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL"><span className="fab fa-facebook-square" style={{color:'#ffdd14'}} /></Link></li>
                                 <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/"><span className="fa-brands fa-linkedin" style={{color:'#ffdd14'}}/></Link></li>
-                                <a class="theme-btn btn-style-one" style={{marginLeft: '11px',}} href=""><span class="btn-title">Demande de demo</span></a>
+                                <a class="theme-btn btn-style-one" style={{marginLeft: '11px',}} href="/page-demo"><span class="btn-title">Demande de demo</span></a>
                                 {/* 
                                 <li><Link href="/#"><span className="fab fa-facebook-square" /></Link></li>
                                 <li><Link href="/#"><span className="fab fa-pinterest-p" /></Link></li>

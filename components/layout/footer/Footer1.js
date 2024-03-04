@@ -62,11 +62,11 @@ export default function Footer1() {
                                     <div className="widget-content">
                                                                                 
                                         <ul className="user-links">
-                                            <li><Link href="/#" className="text-white">Accueil</Link></li>
+                                            <li><Link href="/" className="text-white">Accueil</Link></li>
                                             <li><Link href="/#" className="text-white">A propos</Link></li>
-                                            <li><Link href="/#" className="text-white">SAP Business One</Link></li>
-                                            <li><Link href="/#" className="text-white">SAP RSM</Link></li>
-                                            <li><Link href="/#" className="text-white">Switch</Link></li>
+                                            <li><Link href="/sap-business-one" className="text-white">SAP Business One</Link></li>
+                                            <li><Link href="/sap-rsm" className="text-white">SAP RSM</Link></li>
+                                            <li><Link href="/switch" className="text-white">Switch</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -80,10 +80,11 @@ export default function Footer1() {
                                     <h5 className="widget-title">Nos services</h5>
                                     <div className="widget-content">
                                         <div className="subscribe-form">
-                                            <li><Link href="/integration-de-solution" className="text-white">Integration de Solutions</Link></li>
-                                            <li><Link href="/accompagnement-digital" className="text-white">Accompagnement Digital</Link></li>
-                                            <li><Link href="/developpement-web" className="text-white">Développement web</Link></li>
-
+                                            <ul className="user-links">
+                                                <li><Link href="/integration-de-solution" className="text-white">Integration de Solutions</Link></li>
+                                                <li><Link href="/accompagnement-digital" className="text-white">Accompagnement Digital</Link></li>
+                                                <li><Link href="/developpement-web" className="text-white">Développement web</Link></li>
+                                            </ul>
                                             {/* <form method="post" action="#">
                                                 <div className="form-group">
                                                     <input type="email" name="email" className="email" placeholder="Email Address" required />
