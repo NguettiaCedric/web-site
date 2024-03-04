@@ -44,7 +44,7 @@ export default function Menu() {
                         <li><Link href="/news-details">News Details</Link></li>
                     </ul>
                 </li> */}
-                <li><Link href="#">Projets réalisés</Link></li>
+                <li><Link href="/page-projets">Projets réalisés</Link></li>
                 <li><Link href="#">Blog</Link></li>
                 {/* <li><Link href="/page-demo">Demande de demo</Link></li> */}
                 <li><Link href="/page-contact">Contact</Link></li>

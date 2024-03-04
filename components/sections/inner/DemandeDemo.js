@@ -1,7 +1,31 @@
 
 import Link from 'next/link'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function DemandeDemo() {
+
+	const form = useRef();
+	const sendEmail = (e) => {
+		e.preventDefault();
+	
+		emailjs
+		  .sendForm('service_8q3jhsf', 'template_vgrjged', form.current, {
+			publicKey: '1njDBubmLp-Q-Wed-',
+		  })
+		  .then(
+			() => {
+			  console.log('SUCCESS!');
+			},
+			(error) => {
+			  console.log('FAILED...', error.text);
+			},
+		);
+		
+		e.target.reset()
+		  
+	};
+
     return (
         <>
 			<section className="contact-details">
@@ -11,19 +35,19 @@ export default function DemandeDemo() {
 							<span className="sub-title">Envoi de mail</span>
 							<h2>veuillez remplir ces champs SVP</h2>
 						</div>
-						<div className="col-xl-7 col-lg-6">
-							<form id="contact_form" name="contact_form" className="" action="" method="get">
+						<div className="col-xl-7 col-lg-6">				
+							<form ref={form} onSubmit={sendEmail} id="contact_form" name="contact_form" className="" action="" method="get">
 								<div className="row">
 									<div className="col-sm-6">
 									<label for="name" style={{fontWeight: 'bold'}} >Nom & Prénoms</label><span class="text-danger"> *</span>
 										<div className="mb-3">
-											<input id='name' name="name" className="form-control" type="text" placeholder="Nom & Prénoms"/>
+											<input id='name' name="name" className="form-control" type="text" placeholder="Nom & Prénoms" required/>
 										</div>
 									</div>
 									<div className="col-sm-6">
-										<label for="email" style={{fontWeight: 'bold'}} >Email</label><span class="text-danger"> *</span>
+										<label for="email" style={{fontWeight: 'bold'}} >Email</label><span class="text-danger" > *</span>
 										<div className="mb-3">
-											<input id='email' name="form_email" className="form-control required email" type="email" placeholder="Email"/>
+											<input id='email' name="form_email" className="form-control required email" type="email" placeholder="Email" required/>
 										</div>
 									</div>
 								</div>
@@ -31,7 +55,7 @@ export default function DemandeDemo() {
 									<div className="col-sm-6">
 										<label for="telephone" style={{fontWeight: 'bold'}} >Téléphone</label><span class="text-danger"> *</span>
 										<div className="mb-3">
-											<input id='telephone' name="telephone" className="form-control required" type="text" placeholder="Telephone"/>
+											<input id='telephone' name="telephone" className="form-control required" type="text" placeholder="Telephone" required/>
 										</div>
 									</div>
 									<div className="col-sm-6">
@@ -39,7 +63,7 @@ export default function DemandeDemo() {
 											<input name="form_phone" className="form-control" type="text" placeholder="Industrie"/>
 										</div> */}
 										<div className="mb-3">
-											<label for="industrie" style={{fontWeight: 'bold'}} >Industrie</label><span class="text-danger"> *</span>
+											<label for="industrie" style={{fontWeight: 'bold'}} >Industrie</label><span class="text-danger"></span>
 											<select id='industrie' name="industrie" className="form-control">
 												<option value="">Sélectionnez une industrie</option>
 												<option value="Distribution et commerce de gros">Distribution et commerce de gros</option>
@@ -64,12 +88,12 @@ export default function DemandeDemo() {
 									<div className="col-sm-6">
 										<label for="compagnie" style={{fontWeight: 'bold'}} >Compagnie</label><span class="text-danger"> *</span>
 										<div className="mb-3">
-											<input id='compagnie' name="compagnie" className="form-control required" type="text" placeholder="Croissance Numerique"/>
+											<input id='compagnie' name="compagnie" className="form-control required" type="text" placeholder="Croissance Numerique" required/>
 										</div>
 									</div>
 									<div className="col-sm-6">
 										<div className="mb-3">
-											<label for="objet" style={{fontWeight: 'bold'}} >Objet</label><span class="text-danger"> *</span>
+											<label for="objet" style={{fontWeight: 'bold'}} required>Objet</label><span class="text-danger"> *</span>
 											<select id='objet' name="objet" className="form-control">
 												<option value="Choisisez une démonstration">Choisisez une démonstration</option>
 												<option value="Demo SAP Business One">Demo SAP Business One</option>

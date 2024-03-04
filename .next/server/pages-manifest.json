@@ -3,6 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/page-contact": "pages/page-contact.js",
-  "/page-demo": "pages/page-demo.js"
+  "/page-projets": "pages/page-projets.js",
+  "/page-demo": "pages/page-demo.js",
+  "/projet-Fairtrade": "pages/projet-Fairtrade.js"
 }
