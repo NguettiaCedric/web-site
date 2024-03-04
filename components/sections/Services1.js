@@ -70,7 +70,7 @@ export default function Services1() {
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon  flaticon-web-development" />
-                                    <h5 className="title"><Link href="/page-service-details">Application <br />Development</Link></h5>
+                                    <h5 className="title"><Link href="/page-service-details">Application <br />Développement</Link></h5>
                                     <div className="text">Nous mettons notre expertise à votre service pour vous guider tout au long du développement d'applications.</div>
                                 </div>
                             </div>

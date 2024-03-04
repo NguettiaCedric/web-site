@@ -7,11 +7,11 @@ export default function DemandeDemo() {
 			<section className="contact-details">
 				<div className="container ">
 					<div className="row">
+						<div className="sec-title">
+							<span className="sub-title">Envoi de mail</span>
+							<h2>veuillez remplir ces champs SVP</h2>
+						</div>
 						<div className="col-xl-7 col-lg-6">
-							<div className="sec-title">
-								<span className="sub-title">Envoi de mail</span>
-								<h2>veuillez remplir ces champs SVP</h2>
-							</div>
 							<form id="contact_form" name="contact_form" className="" action="" method="get">
 								<div className="row">
 									<div className="col-sm-6">
@@ -39,7 +39,7 @@ export default function DemandeDemo() {
 											<input name="form_phone" className="form-control" type="text" placeholder="Industrie"/>
 										</div> */}
 										<div className="mb-3">
-											<label for="industrie" style={{fontWeight: 'bold'}} >Objet</label><span class="text-danger"> *</span>
+											<label for="industrie" style={{fontWeight: 'bold'}} >Industrie</label><span class="text-danger"> *</span>
 											<select id='industrie' name="industrie" className="form-control">
 												<option value="">Sélectionnez une industrie</option>
 												<option value="Distribution et commerce de gros">Distribution et commerce de gros</option>
@@ -80,7 +80,7 @@ export default function DemandeDemo() {
 									</div>
 								</div>
 								<div className="mb-3">
-								<label for="Message" style={{fontWeight: 'bold'}} >Contenu</label><span class="text-danger"> *</span>
+								<label for="Message" style={{fontWeight: 'bold'}} >Message</label><span class="text-danger"> *</span>
 									<textarea name="form_message" className="form-control required" rows="7" placeholder="Message"></textarea>
 								</div>
 								<div className="mb-3">
