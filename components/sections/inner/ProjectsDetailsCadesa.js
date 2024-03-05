@@ -76,18 +76,18 @@ export default function ProjectsDetailsCadesa() {
 				<div className="col-xl-12">
 					<div className="project-details__pagination-box">
 						<ul className="project-details__pagination list-unstyled clearfix">
-							<li className="next">
+							{/* <li className="next">
 								<div className="icon"> <Link href="/#" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link> </div>
 								<div className="content">Previous</div>
-							</li>
+							</li> */}
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
-							<li className="previous">
+							{/* <li className="previous">
 								<div className="content">Next</div>
 								<div className="icon"> <Link href="/#" aria-label="Previous"><i className="lnr lnr-icon-arrow-right"></i></Link> </div>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>

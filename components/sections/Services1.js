@@ -15,7 +15,7 @@ export default function Services1() {
                                 {/* <span className="sub-title">our services</span> */}
                                 <h2>Découvrez nos services</h2>
                             </div>
-                            <div className="col-lg-5">
+                            <div className="col-lg-5" style={{display: 'flex',justifyContent:'end'}}>
                                 {/* <div className="text">There are many variations of passages of available but majority alteration in some form, by humou or randomised words.</div> */}
                                 {/* <a class="theme-btn btn-style-one" href="" ><span class="btn-title">Demande de demo</span></a> */}
                                 <li class="theme-btn btn-style-one" style={{marginLeft: '11px',}}><Link href="/page-demo"><span class="btn-title">Demande de demo</span></Link></li>

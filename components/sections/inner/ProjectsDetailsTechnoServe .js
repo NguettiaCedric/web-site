@@ -43,31 +43,33 @@ export default function ProjectsDetailsTechnoServe() {
 				<div className="row">
 					<div className="col-xl-12">
 						<div className="project-details__content-left">
-							<h3 className="mb-4 mt-5">DOMAINE : Cacao Techno</h3>
-							<h3 className="mb-4 mt-5">DESTINATAIRES : Coopératives partenaires Techno</h3>
+							<h3 className="mb-4 mt-5">DOMAINE : Noix de Cajou</h3>
+							<h3 className="mb-4 mt-5">DESTINATAIRES : Coopératives partenaires</h3>
 							{/* <p className="">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Asperiores, repellat aliquid. Est corrupti officiis dignissimos deserunt sunt minima iusto quia saepe tempora consectetur dolor deleniti voluptatum et, eos vitae pariatur molestiae odit quos enim voluptas nobis ullam voluptatem cum iste. Dolore modi, animi optio, dignissimos delectus pariatur similique harum eos. </p> */}
 							<p className="mb-5">
-							Description du projet : Cargill West Africa stations d'achat, 
-							d'équipes commerciales, de développement durable et de recherche sur les cultures travaille en étroite collaboration
-							avec les producteurs de cacao et les communautés pour s'approvisionner en fèves cultivées localement pour notre
-							opération de transformation de pointe qui produit des produits à base de cacao pour les clients de l'alimentation
-							et de la confiserie du monde entier. Elle utilise la solution pour la gestion des coopératives et assurer
-							la traçabilité de cacao. <br />
+								Description du projet : Nassara NASSARA est pionnière au Bénin en matière de production, 
+								transformation et exportation des noix de cajou certifiées biologiques et commerce équitable, 
+								elle a souhaité avoir un système de suivi et traçabilité afin de contrôler l’acquisition des 
+								matières et aussi des relations avec les producteurs avec pour appui de financement TECHNOSERVE BENIN,
+							<br />
+							Elle a acquis la solution pour assurer ce suivi et gérer les producteurs afin de garantir l’approvisionnement continu de matières pour son usine et améliorer les relations productrices et consommateurs.
 
+							<br />
 							Description des services réels fournis dans le cadre de la mission :
 							</p>
 
                             <ul className="list-style-two list-style-black mb-0">
-								<li><i className="fa fa-check-circle"></i>Mise en place de l'instance du système de Management</li>
-								<li><i className="fa fa-check-circle"></i>Création (lecture, mise à jour, suppression) d'une certification Farmer sur le Web</li>
-								<li><i className="fa fa-check-circle"></i>Créer (lire, mettre à jour, supprimer) un quota sur le Web</li>
-								<li><i className="fa fa-check-circle"></i>Effectuer un achat sur le mobile pour un agriculteur avec un ou deux quotas (UTZ et RFA). Tous les scénarios (single Bag, multi-bag, bulk, retardé) et les variations de celui-ci.</li>						
-								<li><i className="fa fa-check-circle"></i>Lors du transfert des grains, la sélection de l'entrepôt est effectuée par défaut sur le dernier entrepôt</li>
-								<li><i className="fa fa-check-circle"></i>Enregistrement de la création du compte</li>
-								<li><i className="fa fa-check-circle"></i>Dépôt d'épargne</li>
-								<li><i className="fa fa-check-circle"></i>Retrait d'épargne</li>
-								<li><i className="fa fa-check-circle"></i>Traçabilité</li>
-								<li><i className="fa fa-check-circle"></i>Connexion du système de traçabilité avec une solution ERP</li>
+								<li><i className="fa fa-check-circle"></i>Mise en place de la solution ;</li>
+								<li><i className="fa fa-check-circle"></i>Enregistrer et constituer la base de données des coopératives partenaires des usines ;</li>
+								<li><i className="fa fa-check-circle"></i>Géoréférencer les plantations des producteurs</li>
+								<li><i className="fa fa-check-circle"></i>Géoréférencer les magasins installés dans les zones des coopératives partenaires ;</li>						
+								<li><i className="fa fa-check-circle"></i>Prévoir la quantité de noix à acheter auprès des coopératives à partir de la production totale estimée par la coopérative ;</li>
+								<li><i className="fa fa-check-circle"></i>Voir en temps réel les activités du personnel d’appui aux coopératives ;</li>
+								<li><i className="fa fa-check-circle"></i>Utiliser les données numériques pour les audits ;</li>
+								<li><i className="fa fa-check-circle"></i>Contrôler la qualité et la transparence au cours de l’approvisionnement des matières premières ;</li>
+								<li><i className="fa fa-check-circle"></i>Attribuer un code par zone pour assurer la traçabilité ;</li>
+								<li><i className="fa fa-check-circle"></i>La formation du personnel de la structure concernée sur l’utilisation du système ;</li>
+								<li><i className="fa fa-check-circle"></i>Un rapport d’activité.</li>
 
                             </ul>
 						</div>
@@ -78,18 +80,18 @@ export default function ProjectsDetailsTechnoServe() {
 				<div className="col-xl-12">
 					<div className="project-details__pagination-box">
 						<ul className="project-details__pagination list-unstyled clearfix">
-							<li className="next">
+							{/* <li className="next">
 								<div className="icon"> <Link href="/#" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link> </div>
 								<div className="content">Previous</div>
-							</li>
+							</li> */}
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
-							<li className="previous">
+							{/* <li className="previous">
 								<div className="content">Next</div>
 								<div className="icon"> <Link href="/#" aria-label="Previous"><i className="lnr lnr-icon-arrow-right"></i></Link> </div>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>

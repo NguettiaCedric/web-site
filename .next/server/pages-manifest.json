@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projet-CADESA": "pages/projet-CADESA.js",
-  "/integration-de-solution": "pages/integration-de-solution.js",
-  "/switch": "pages/switch.js",
-  "/sap-rsm": "pages/sap-rsm.js"
+  "/page-projets": "pages/page-projets.js",
+  "/projet-TechnoServe": "pages/projet-TechnoServe.js",
+  "/": "pages/index.js"
 }

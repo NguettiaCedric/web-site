@@ -30,7 +30,7 @@ export default function Projects1() {
                             <div className=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/projet-TechnoServe"><img src="/images/resource/img-TechnoServe.jpg" alt="" /></Link></figure>
+                                        <figure className="image"><Link href="/projet-TechnoServe"><img src="/images/resource/img-tec02.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="content-box">
                                         <Link href="/projet-TechnoServe" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
@@ -57,7 +57,7 @@ export default function Projects1() {
                             <div className=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/projet-CADESA"><img src="/images/resource/img-fairtrade01-.jpg" alt="" /></Link></figure>
+                                        <figure className="image"><Link href="/projet-CADESA"><img src="/images/resource/img-cadesa01.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="content-box">
                                         <Link href="/projet-CADESA" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>

@@ -53,7 +53,7 @@ export default function ProjectsDetailsFairtrade() {
 
 							Description des services réels fournis dans le cadre de la mission :
 							</p>
-							
+
                             <ul className="list-style-two list-style-black mb-0">
 								<li><i className="fa fa-check-circle"></i>Mise en place de l'instance ;</li>
 								<li><i className="fa fa-check-circle"></i>Enregistrer et constituer la base de données des coopératives partenaires des usines ;</li>
@@ -69,18 +69,18 @@ export default function ProjectsDetailsFairtrade() {
 				<div className="col-xl-12">
 					<div className="project-details__pagination-box">
 						<ul className="project-details__pagination list-unstyled clearfix">
-							<li className="next">
+							{/* <li className="next">
 								<div className="icon"> <Link href="/#" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link> </div>
 								<div className="content">Previous</div>
-							</li>
+							</li> */}
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
-							<li className="previous">
+							{/* <li className="previous">
 								<div className="content">Next</div>
 								<div className="icon"> <Link href="/#" aria-label="Previous"><i className="lnr lnr-icon-arrow-right"></i></Link> </div>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>

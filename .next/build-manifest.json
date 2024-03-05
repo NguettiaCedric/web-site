@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -22,25 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/integration-de-solution": [
+    "/page-projets": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/integration-de-solution.js"
+      "static/chunks/pages/page-projets.js"
     ],
-    "/projet-CADESA": [
+    "/projet-TechnoServe": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projet-CADESA.js"
-    ],
-    "/sap-rsm": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sap-rsm.js"
-    ],
-    "/switch": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/switch.js"
+      "static/chunks/pages/projet-TechnoServe.js"
     ]
   },
   "ampFirstPages": []
