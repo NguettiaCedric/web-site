@@ -27,6 +27,7 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+<<<<<<< HEAD
     "/integration-de-solution": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -41,6 +42,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/switch.js"
+=======
+    "/projet-CADESA": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projet-CADESA.js"
+>>>>>>> a67602ad9d15b93f3682cebc2315352cd14930a3
     ]
   },
   "ampFirstPages": []
