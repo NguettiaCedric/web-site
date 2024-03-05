@@ -73,7 +73,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><img src="/images/logo.png" alt=""  /></Link></div>
+                            <div className="nav-logo"><Link href="/"><img src="/images/logo-cn0.png" alt=""  /></Link></div>
                             <div className="close-btn" onClick={handleMobileMenu}><i className="icon fa fa-times" /></div>
                         </div>
                         <MobileMenu />

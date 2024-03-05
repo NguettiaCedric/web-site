@@ -14089,6 +14089,37 @@ Sidebar
   content: "";
   display: none;
 }
+
+/*  */
+
+/* CSS for desktop */
+.desktop-only {
+  display: block;
+}
+
+/* CSS for mobile */
+@media (max-width: 767px) {
+  .desktop-only {
+      display: none;
+  }
+}
+
+/* CSS for desktop */
+.desktop-only-1 {
+  display: none;
+}
+
+/* CSS for mobile */
+@media (max-width: 767px) {
+  .desktop-only-1 {
+    display: block;
+    margin: 15px;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+
 @media (max-width: 767.98px) {
   .contact-info-block .inner {
     margin-bottom: 30px;

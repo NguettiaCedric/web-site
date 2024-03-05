@@ -2,16 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
   "/": "pages/index.js",
-  "/sap-business-one": "pages/sap-business-one.js"
-=======
-  "/sap-rsm": "pages/sap-rsm.js",
-  "/projet-cargill": "pages/projet-cargill.js",
-  "/": "pages/index.js",
-  "/sap-business-one": "pages/sap-business-one.js",
-  "/switch": "pages/switch.js",
-  "/integration-de-solution": "pages/integration-de-solution.js",
-  "/accompagnement-digital": "pages/accompagnement-digital.js"
->>>>>>> 60de29710816bde027f96bb5a4c4af42ad6c6dc8
+  "/page-contact": "pages/page-contact.js",
+  "/page-projets": "pages/page-projets.js"
 }
