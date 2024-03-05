@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/projet-Fairtrade": "pages/projet-Fairtrade.js",
   "/projet-CADESA": "pages/projet-CADESA.js",
-  "/integration-de-solution": "pages/integration-de-solution.js"
+  "/integration-de-solution": "pages/integration-de-solution.js",
+  "/page-contact": "pages/page-contact.js"
 }

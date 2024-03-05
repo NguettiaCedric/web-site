@@ -32,10 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/integration-de-solution.js"
     ],
-    "/projet-CADESA": [
+    "/page-contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projet-CADESA.js"
+      "static/chunks/pages/page-contact.js"
     ]
   },
   "ampFirstPages": []
