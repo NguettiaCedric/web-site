@@ -95,9 +95,9 @@ export default function Testimonial1() {
                                                     <i className="fa fa-star" />
                                                     <i className="fa fa-star" />
                                                 </div>
-                                                <figure className="thumb"><img src="/images/resource/testi-thumb-1.jpg" alt="" /></figure>
-                                                <h5 className="name">David MacLennan</h5>
-                                                <span className="designation">PDG de Cargill</span>
+                                                <figure className="thumb"><img src="/images/resource/dg-cargill.jpg" alt="" /></figure>
+                                                <h5 className="name">Lionel Soulard</h5>
+                                                <span className="designation">DG de Cargill CI</span>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -118,9 +118,9 @@ export default function Testimonial1() {
                                                     <i className="fa fa-star" />
                                                     <i className="fa fa-star" />
                                                 </div>
-                                                <figure className="thumb"><img src="/images/resource/testi-2.jpg" alt="" /></figure>
-                                                <h5 className="name">Silué Tchelibé Adama</h5>
-                                                <span className="designation">DG de COIC SA </span>
+                                                <figure className="thumb"><img src="/images/resource/dj-ecorigine.jpg" alt="" /></figure>
+                                                <h5 className="name">Ismael Koné</h5>
+                                                <span className="designation">DG ECORIGINE SA </span>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -142,9 +142,9 @@ export default function Testimonial1() {
                                                     <i className="fa fa-star" />
                                                     <i className="fa fa-star" />
                                                 </div>
-                                                <figure className="thumb"><img src="/images/resource/testi-thumb-1.jpg" alt="" /></figure>
-                                                <h5 className="name">Bobo-Dioulasso</h5>
-                                                <span className="designation">Chief Financial Officer (CFO) ANATRANS SA</span>
+                                                <figure className="thumb"><img src="/images/resource/pdgTechnoServe.jpg" alt="pdgTechnoServe.jpg" /></figure>
+                                                <h5 className="name">William Warshauer</h5>
+                                                <span className="designation">PDG de TechnoServe</span>
                                             </div>
                                         </div>
                                     </SwiperSlide>

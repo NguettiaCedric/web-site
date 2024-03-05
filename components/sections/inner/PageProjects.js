@@ -24,12 +24,12 @@ export default function ProjectInner() {
                             <div className=" project-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/page-project-details"><img src="/images/resource/img-TechnoServe.jpg" alt="" /></Link></figure>
+                                        <figure className="image"><Link href="/projet-TechnoServe"><img src="/images/resource/img-tec02.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="content-box">
-                                        <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                        <Link href="/projet-TechnoServe" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
                                         <span className="cat">Nous avons mis en place dans le domaine de la noix de cajou, un système de géoréférence des plantations des producteurs ...</span>
-                                        <h4 className="title"><Link href="/page-project-details" >TechnoServe & Tolaro Global</Link></h4>
+                                        <h4 className="title"><Link href="/projet-TechnoServe" >TechnoServe & Tolaro Global</Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -37,13 +37,13 @@ export default function ProjectInner() {
                             <div className=" project-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/page-project-details"><img src="/images/resource/img-fairtrade01-.jpg" alt="" /></Link></figure>
+                                        <figure className="image"><Link href="/projet-Fairtrade"><img src="/images/resource/img-fairtrade01-.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="content-box">
-                                        <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                        <Link href="/projet-Fairtrade" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
                                         <span className="cat">Dans le domaine du CACAO, nous avons implanté dans plus 50 coopératives un système de Management
                                          pour garantir l’approvisionnement des matières premières...</span>
-                                        <h4 className="title"><Link href="/page-project-details" >Fairtrade</Link></h4>
+                                        <h4 className="title"><Link href="/projet-Fairtrade" >Fairtrade</Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ export default function ProjectInner() {
                             <div className=" project-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="/projet-CADESA"><img src="/images/resource/img-fairtrade01-.jpg" alt="" /></Link></figure>
+                                        <figure className="image"><Link href="/projet-CADESA"><img src="/images/resource/img-cadesa01.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="content-box">
                                         <Link href="/projet-CADESA" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>

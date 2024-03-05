@@ -61,8 +61,7 @@ export default function ProjectsDetailsCargill() {
 								<li><i className="fa fa-check-circle"></i>Mise en place de l'instance du système de Management</li>
 								<li><i className="fa fa-check-circle"></i>Création (lecture, mise à jour, suppression) d'une certification Farmer sur le Web</li>
 								<li><i className="fa fa-check-circle"></i>Créer (lire, mettre à jour, supprimer) un quota sur le Web</li>
-								<li><i className="fa fa-check-circle"></i>Effectuer un achat sur le mobile pour un agriculteur avec un ou deux quotas (UTZ et RFA). Tous les scénarios (single Bag, multi-bag, bulk, retardé) et les variations de celui-ci.
-	</li>						
+								<li><i className="fa fa-check-circle"></i>Effectuer un achat sur le mobile pour un agriculteur avec un ou deux quotas (UTZ et RFA). Tous les scénarios (single Bag, multi-bag, bulk, retardé) et les variations de celui-ci.</li>						
 								<li><i className="fa fa-check-circle"></i>Lors du transfert des grains, la sélection de l'entrepôt est effectuée par défaut sur le dernier entrepôt</li>
 								<li><i className="fa fa-check-circle"></i>Enregistrement de la création du compte</li>
 								<li><i className="fa fa-check-circle"></i>Dépôt d'épargne</li>
@@ -79,18 +78,18 @@ export default function ProjectsDetailsCargill() {
 				<div className="col-xl-12">
 					<div className="project-details__pagination-box">
 						<ul className="project-details__pagination list-unstyled clearfix">
-							<li className="next">
+							{/* <li className="next">
 								<div className="icon"> <Link href="/#" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link> </div>
 								<div className="content">Previous</div>
-							</li>
+							</li> */}
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
 							<li className="count"><Link href="/#"></Link></li>
-							<li className="previous">
+							{/* <li className="previous">
 								<div className="content">Next</div>
 								<div className="icon"> <Link href="/#" aria-label="Previous"><i className="lnr lnr-icon-arrow-right"></i></Link> </div>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>

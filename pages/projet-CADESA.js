@@ -1,7 +1,6 @@
 import Layout from "@/components/layout/Layout"
 import ProjectsDetails from "@/components/sections/inner/ProjectsDetails"
-import ProjectsDetailsCadesa from "@/components/sections/inner/ProjectsDetailsCADESA"
-import ProjectsDetailsCargill from "@/components/sections/inner/ProjectsDetailsCargill"
+import ProjectsDetailsCadesa from "@/components/sections/inner/ProjectsDetailsCadesa"
 import PageTitle from "@/components/sections/PageTitle"
 export default function Projectpage() {
     return (
