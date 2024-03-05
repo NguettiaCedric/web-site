@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/page-demo": "pages/page-demo.js",
   "/projet-Fairtrade": "pages/projet-Fairtrade.js",
-  "/sap-business-one": "pages/sap-business-one.js"
+  "/projet-CADESA": "pages/projet-CADESA.js",
+  "/integration-de-solution": "pages/integration-de-solution.js"
 }

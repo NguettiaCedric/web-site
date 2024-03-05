@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function ProjectsDetailsCadesa() {
+export default function ProjectsDetailsTechnoServe() {
     return (
         <>
 
@@ -43,8 +43,8 @@ export default function ProjectsDetailsCadesa() {
 				<div className="row">
 					<div className="col-xl-12">
 						<div className="project-details__content-left">
-							<h3 className="mb-4 mt-5">DOMAINE : Cacao</h3>
-							<h3 className="mb-4 mt-5">DESTINATAIRES : Coopératives partenaires dgdgdgdg</h3>
+							<h3 className="mb-4 mt-5">DOMAINE : Cacao Techno</h3>
+							<h3 className="mb-4 mt-5">DESTINATAIRES : Coopératives partenaires Techno</h3>
 							{/* <p className="">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Asperiores, repellat aliquid. Est corrupti officiis dignissimos deserunt sunt minima iusto quia saepe tempora consectetur dolor deleniti voluptatum et, eos vitae pariatur molestiae odit quos enim voluptas nobis ullam voluptatem cum iste. Dolore modi, animi optio, dignissimos delectus pariatur similique harum eos. </p> */}
 							<p className="mb-5">
 							Description du projet : Cargill West Africa stations d'achat, 

@@ -62,7 +62,7 @@ export default function Projects1() {
                                     <div className="content-box">
                                         <Link href="/projet-CADESA" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
                                         <span className="cat">Nous avons Implémenter dans le domaine du CACAO un système de Management pour garantir l’approvisionnement des matières premières à l’usine et assurer la traçabilité.</span>
-                                        <h4 className="title"><Link href="/rojet-CADESA" >CADESA</Link></h4>
+                                        <h4 className="title"><Link href="/projet-CADESA" >CADESA</Link></h4>
                                     </div>
                                 </div>
                             </div>

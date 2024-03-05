@@ -27,15 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projet-Fairtrade": [
+    "/integration-de-solution": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projet-Fairtrade.js"
+      "static/chunks/pages/integration-de-solution.js"
     ],
-    "/sap-business-one": [
+    "/projet-CADESA": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/sap-business-one.js"
+      "static/chunks/pages/projet-CADESA.js"
     ]
   },
   "ampFirstPages": []
