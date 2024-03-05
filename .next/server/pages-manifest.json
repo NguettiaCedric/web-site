@@ -3,5 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/sap-business-one": "pages/sap-business-one.js"
+  "/accompagnement-digital": "pages/accompagnement-digital.js",
+  "/sap-rsm": "pages/sap-rsm.js",
+  "/switch": "pages/switch.js"
 }
