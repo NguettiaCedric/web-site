@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"..\\\\components\\\\sections\\\\Funfact.js -> @/components/elements/CounterUp\":{\"id\":\"..\\\\components\\\\sections\\\\Funfact.js -> @/components/elements/CounterUp\",\"files\":[\"static/chunks/components_elements_CounterUp_js.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{\"..\\\\components\\\\sections\\\\About2.js -> @/components/elements/CounterUp\":{\"id\":\"..\\\\components\\\\sections\\\\About2.js -> @/components/elements/CounterUp\",\"files\":[\"static/chunks/components_elements_CounterUp_js.js\"]}}"
