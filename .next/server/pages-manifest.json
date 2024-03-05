@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/projet-CADESA": "pages/projet-CADESA.js",
   "/integration-de-solution": "pages/integration-de-solution.js",
-  "/page-contact": "pages/page-contact.js"
+  "/switch": "pages/switch.js",
+  "/sap-rsm": "pages/sap-rsm.js"
 }

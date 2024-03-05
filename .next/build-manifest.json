@@ -12,11 +12,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -32,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/integration-de-solution.js"
     ],
-    "/page-contact": [
+    "/projet-CADESA": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/page-contact.js"
+      "static/chunks/pages/projet-CADESA.js"
+    ],
+    "/sap-rsm": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sap-rsm.js"
+    ],
+    "/switch": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/switch.js"
     ]
   },
   "ampFirstPages": []
