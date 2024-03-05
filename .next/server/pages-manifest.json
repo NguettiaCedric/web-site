@@ -2,7 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
   "/": "pages/index.js",
   "/sap-business-one": "pages/sap-business-one.js",
   "/page-contact": "pages/page-contact.js"
+=======
+  "/sap-business-one": "pages/sap-business-one.js",
+  "/accompagnement-digital": "pages/accompagnement-digital.js",
+  "/developpement-web": "pages/developpement-web.js"
+>>>>>>> 9042844506138f238c4a9300551c7edcdc16414c
 }
