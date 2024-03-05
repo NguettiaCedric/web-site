@@ -20,7 +20,7 @@ export default function Home() {
     return (
         <>
             <Layout headerStyle={1} footerStyle={1}>
-                <Slider1 />
+                <Slider1/>
                 <Whychoose01 />
                 <Services1 />
                 {/* <About1 addClass={"pt-0"} /> */}

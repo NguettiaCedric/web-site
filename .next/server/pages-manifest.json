@@ -2,6 +2,22 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
+  "/": "pages/index.js",
   "/sap-business-one": "pages/sap-business-one.js",
+  "/page-contact": "pages/page-contact.js"
+=======
+  "/sap-business-one": "pages/sap-business-one.js",
+<<<<<<< HEAD
   "/sap-rsm": "pages/sap-rsm.js"
+=======
+  "/accompagnement-digital": "pages/accompagnement-digital.js",
+<<<<<<< HEAD
+  "/developpement-web": "pages/developpement-web.js"
+>>>>>>> 9042844506138f238c4a9300551c7edcdc16414c
+=======
+  "/developpement-web": "pages/developpement-web.js",
+  "/": "pages/index.js"
+>>>>>>> 9b3caf6dc4f4e001cf36b6e81b12465275b95a3a
+>>>>>>> 1d904c47c97032ebb5b0d97fee20ef41b74d0d20
 }
