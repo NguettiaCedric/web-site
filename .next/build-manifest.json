@@ -27,10 +27,38 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+<<<<<<< HEAD
+=======
+    "/accompagnement-digital": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/accompagnement-digital.js"
+    ],
+    "/integration-de-solution": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/integration-de-solution.js"
+    ],
+    "/projet-cargill": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projet-cargill.js"
+    ],
+>>>>>>> 60de29710816bde027f96bb5a4c4af42ad6c6dc8
     "/sap-business-one": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/sap-business-one.js"
+    ],
+    "/sap-rsm": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sap-rsm.js"
+    ],
+    "/switch": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/switch.js"
     ]
   },
   "ampFirstPages": []
