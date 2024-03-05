@@ -3,12 +3,10 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-<<<<<<< HEAD
   "/sap-rsm": "pages/sap-rsm.js",
+  "/sap-business-one": "pages/sap-business-one.js",
   "/switch": "pages/switch.js",
-  "/integration-de-solution": "pages/integration-de-solution.js"
-=======
-  "/page-projets": "pages/page-projets.js",
-  "/projet-CADESA": "pages/projet-CADESA.js"
->>>>>>> a67602ad9d15b93f3682cebc2315352cd14930a3
+  "/integration-de-solution": "pages/integration-de-solution.js",
+  "/accompagnement-digital": "pages/accompagnement-digital.js",
+  "/developpement-web": "pages/developpement-web.js"
 }
