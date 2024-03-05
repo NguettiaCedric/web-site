@@ -2,8 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/sap-rsm": "pages/sap-rsm.js",
-  "/page-projets": "pages/page-projets.js",
-  "/projet-cargill": "pages/projet-cargill.js"
+  "/projet-cargill": "pages/projet-cargill.js",
+  "/": "pages/index.js",
+  "/sap-business-one": "pages/sap-business-one.js",
+  "/switch": "pages/switch.js",
+  "/integration-de-solution": "pages/integration-de-solution.js",
+  "/accompagnement-digital": "pages/accompagnement-digital.js"
 }
