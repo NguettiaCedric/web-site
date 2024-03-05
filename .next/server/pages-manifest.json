@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/integration-de-solution": "pages/integration-de-solution.js",
-  "/sap-rsm": "pages/sap-rsm.js"
+  "/sap-rsm": "pages/sap-rsm.js",
+  "/sap-business-one": "pages/sap-business-one.js"
 }

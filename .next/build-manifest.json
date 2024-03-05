@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/integration-de-solution": [
+    "/sap-business-one": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/integration-de-solution.js"
+      "static/chunks/pages/sap-business-one.js"
     ],
     "/sap-rsm": [
       "static/chunks/webpack.js",
