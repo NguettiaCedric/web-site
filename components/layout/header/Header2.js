@@ -12,21 +12,26 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                         <div className="top-left">
                             {/* Info List */}
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope" /> <Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                                <li><i className="fa fa-map-marker" /> 88 Broklyn Golden Street. New York</li>
+                                <li><i className="fa fa-envelope" /> <Link href="/mailto:contact@croissancenumerique.ci">contact@croissancenumerique.ci</Link></li>
+                                <li><i className="fa fa-map-marker" /> ATTOBAN, 30 ème arrondissement </li>
+                                <li><i className="fa fa-map-marker" /> +225 07 07 17 04 07</li>
                             </ul>
                         </div>
                         <div className="top-right">
-                            <ul className="useful-links">
+                            {/* <ul className="useful-links">
                                 <li><Link href="/#">Help</Link></li>
                                 <li><Link href="/#">Support</Link></li>
                                 <li><Link href="/#">Contact</Link></li>
-                            </ul>
-                            <ul className="social-icon-one">
-                                <li><Link href="/#"><span className="fab fa-twitter" /></Link></li>
+                            </ul> */}
+                           <ul className="social-icon-one" style={{alignItems: 'center',}}>
+                                {/* <li><Link href="/#"><span className="fab fa-twitter" /></Link></li> */}
+                                <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL"><span className="fab fa-facebook-square" style={{color:'#ffdd14'}} /></Link></li>
+                                <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/"><span className="fa-brands fa-linkedin" style={{color:'#ffdd14'}}/></Link></li>
+                                <li class="theme-btn btn-style-one" style={{marginLeft: '11px',}}><Link href="/page-demo"><span class="btn-title">Demande de demo</span></Link></li>
+                                {/* 
                                 <li><Link href="/#"><span className="fab fa-facebook-square" /></Link></li>
                                 <li><Link href="/#"><span className="fab fa-pinterest-p" /></Link></li>
-                                <li><Link href="/#"><span className="fab fa-instagram" /></Link></li>
+                                <li><Link href="/#"><span className="fab fa-instagram" /></Link></li> */}
                             </ul>
                         </div>
                     </div>
@@ -124,10 +129,10 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/"><img src="/images/logo-2.png" alt="" /></Link>
+                                <Link href="/"><img src="/images/logo-cn.png" alt="" /></Link>
                             </div>
                             {/*Right Col*/}
-                            <div className="nav-outer">
+                            <div className="nav-outer">     
                                 {/* Main Menu */}
                                 <nav className="main-menu">
                                     <div className="navbar-collapse show collapse clearfix">

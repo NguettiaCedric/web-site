@@ -9,8 +9,8 @@ export default function RsmDetails() {
       {/* Team Details Start */}
       <section className="team-details">
         <div className=""></div>
-        <div className="container pb-100">
-          <div className="team-details__top pb-70">
+        <div className="container pb-0">
+          <div className="team-details__top pb-0">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="team-details__top-right">

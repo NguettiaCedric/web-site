@@ -6,7 +6,7 @@ export default function Ctarsm() {
         <>
 
             <section className="call-to-action">
-                <div className="bg bg-image" style={{ backgroundImage: 'url(./images/background/1.jpg)' }} />
+                <div className="bg bg-image" style={{ backgroundImage: 'url(./images/background/bg-rsm.png)' }} />
                 <div className="auto-container">
                     <div className="outer-box wow fadeIn">
                         <h2 className="title"> SAP RSM !

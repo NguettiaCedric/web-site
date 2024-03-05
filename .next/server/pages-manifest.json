@@ -1,8 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/developpement-web": "pages/developpement-web.js",
-  "/accompagnement-digital": "pages/accompagnement-digital.js",
-  "/integration-de-solution": "pages/integration-de-solution.js"
-}
+{}

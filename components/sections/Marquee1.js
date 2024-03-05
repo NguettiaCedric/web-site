@@ -4,7 +4,7 @@ export default function Marquee1() {
     return (
         <>
 
-            <div className="marquee-section" style={{marginTop:'-40px'}}>
+            <div className="marquee-section" style={{marginTop:'11px'}}>
                 <div className="marquee">
                     <div className="marquee-group">
                         <div className="text">*Integration de solution</div>

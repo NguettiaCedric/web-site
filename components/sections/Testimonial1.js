@@ -81,7 +81,11 @@ export default function Testimonial1() {
                                     <SwiperSlide className="testimonial-block">
                                         <div className="inner-box">
                                             <div className="content-box">
-                                                <div className="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy data foster to collaborative thinking.</div>
+                                                <div className="text">
+                                                    "Je suis ravi de l'excellent service fourni par Croissance Numerique. 
+                                                    Rapidité, efficacité et professionnalisme sont au rendez-vous. Une expérience client au top !"
+                                                    
+                                                </div>
                                             </div>
                                             <div className="info-box">
                                                 <div className="rating">
@@ -92,8 +96,8 @@ export default function Testimonial1() {
                                                     <i className="fa fa-star" />
                                                 </div>
                                                 <figure className="thumb"><img src="/images/resource/testi-thumb-1.jpg" alt="" /></figure>
-                                                <h5 className="name">Donald hardson</h5>
-                                                <span className="designation">Co Founder</span>
+                                                <h5 className="name">David MacLennan</h5>
+                                                <span className="designation">PDG de Cargill</span>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -101,7 +105,10 @@ export default function Testimonial1() {
                                     <SwiperSlide className="testimonial-block">
                                         <div className="inner-box">
                                             <div className="content-box">
-                                                <div className="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy data foster to collaborative thinking.</div>
+                                                <div className="text">
+                                                "L'équipe de Croissance Numerique est tout simplement exceptionnelle. 
+                                                Leur attention personnalisée m'a fait sentir pris(e) en charge dès le premier jour. Merci pour votre dévouement!"
+                                                </div>
                                             </div>
                                             <div className="info-box">
                                                 <div className="rating">
@@ -112,13 +119,37 @@ export default function Testimonial1() {
                                                     <i className="fa fa-star" />
                                                 </div>
                                                 <figure className="thumb"><img src="/images/resource/testi-2.jpg" alt="" /></figure>
-                                                <h5 className="name">Donald hardson</h5>
-                                                <span className="designation">Co Founder</span>
+                                                <h5 className="name">Silué Tchelibé Adama</h5>
+                                                <span className="designation">DG de COIC SA </span>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     {/* Testimonial Block */}
                                     <SwiperSlide className="testimonial-block">
+                                        <div className="inner-box">
+                                            <div className="content-box">
+                                                <div className="text">
+                                                "Mon expérience avec Croissance Numerique a été tout simplement inoubliable. 
+                                                Des services de qualité, une équipe à l'écoute, je suis plus que satisfait de mon choix."
+                                                    
+                                                </div>
+                                            </div>
+                                            <div className="info-box">
+                                                <div className="rating">
+                                                    <i className="fa fa-star" />
+                                                    <i className="fa fa-star" />
+                                                    <i className="fa fa-star" />
+                                                    <i className="fa fa-star" />
+                                                    <i className="fa fa-star" />
+                                                </div>
+                                                <figure className="thumb"><img src="/images/resource/testi-thumb-1.jpg" alt="" /></figure>
+                                                <h5 className="name">Bobo-Dioulasso</h5>
+                                                <span className="designation">Chief Financial Officer (CFO) ANATRANS SA</span>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    {/* Testimonial Block */}
+                                   {/*  <SwiperSlide className="testimonial-block">
                                         <div className="inner-box">
                                             <div className="content-box">
                                                 <div className="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy data foster to collaborative thinking.</div>
@@ -136,27 +167,7 @@ export default function Testimonial1() {
                                                 <span className="designation">Co Founder</span>
                                             </div>
                                         </div>
-                                    </SwiperSlide>
-                                    {/* Testimonial Block */}
-                                    <SwiperSlide className="testimonial-block">
-                                        <div className="inner-box">
-                                            <div className="content-box">
-                                                <div className="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy data foster to collaborative thinking.</div>
-                                            </div>
-                                            <div className="info-box">
-                                                <div className="rating">
-                                                    <i className="fa fa-star" />
-                                                    <i className="fa fa-star" />
-                                                    <i className="fa fa-star" />
-                                                    <i className="fa fa-star" />
-                                                    <i className="fa fa-star" />
-                                                </div>
-                                                <figure className="thumb"><img src="/images/resource/testi-thumb-1.jpg" alt="" /></figure>
-                                                <h5 className="name">Donald hardson</h5>
-                                                <span className="designation">Co Founder</span>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
+                                    </SwiperSlide> */}
                                 </Swiper>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-
+import CtaBusiness from "@/components/sections/Ctabusiness"
 import Link from "next/link";
 import About2 from "@/components/sections/About2";
 
@@ -8,16 +8,14 @@ export default function SapDetails() {
     <>
       {/* Team Details Start */}
       <section className="team-details">
-        <div className=""></div>
-        <div className="container pb-100">
-          <div className="team-details__top pb-70">
+        <div className="container pb-0">
+          <div className="team-details__top pb-0">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="team-details__top-left">
                   <div className="team-details__top-img">
                     {" "}
                     <img src="images/resource/sap-1.jpg" alt="" />
-                    <div className="team-details__big-text"></div>
                   </div>
                 </div>
               </div>
@@ -51,7 +49,7 @@ export default function SapDetails() {
       
       {/* Pourquoi SAP */}
         <About2 />
-      
+      <CtaBusiness />
     </>
   );
 }

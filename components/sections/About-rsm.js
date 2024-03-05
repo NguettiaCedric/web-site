@@ -49,7 +49,7 @@ export default function Aboutrsm() {
                                         </div>
                                     </div>
                                     <div className="bottom-box">
-                                        <Link href="/page-about" className="theme-btn btn-style-one hvr-dark"><span className="btn-title">Demander une démo</span></Link>
+                                        <Link href="/page-contact" className="theme-btn btn-style-one hvr-dark"><span className="btn-title">Demander une démo</span></Link>
                                     </div>
                                     </div>
                                 </div>

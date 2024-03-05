@@ -17,7 +17,9 @@ export default function Services1() {
                             </div>
                             <div className="col-lg-5">
                                 {/* <div className="text">There are many variations of passages of available but majority alteration in some form, by humou or randomised words.</div> */}
-                                <a class="theme-btn btn-style-one" href="" ><span class="btn-title">Demande de demo</span></a>
+                                {/* <a class="theme-btn btn-style-one" href="" ><span class="btn-title">Demande de demo</span></a> */}
+                                <li class="theme-btn btn-style-one" style={{marginLeft: '11px',}}><Link href="/page-demo"><span class="btn-title">Demande de demo</span></Link></li>
+
                             </div>
                         </div>
                     </div>
@@ -68,7 +70,7 @@ export default function Services1() {
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon  flaticon-web-development" />
-                                    <h5 className="title"><Link href="/page-service-details">Application <br />Development</Link></h5>
+                                    <h5 className="title"><Link href="/page-service-details">Application <br />Développement</Link></h5>
                                     <div className="text">Nous mettons notre expertise à votre service pour vous guider tout au long du développement d'applications.</div>
                                 </div>
                             </div>

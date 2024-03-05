@@ -5,7 +5,7 @@ export default function Menu() {
     return (
         <>
             <ul className="navigation">
-                <li><Link href="#">Accueil</Link></li>
+                <li><Link href="/">Accueil</Link></li>
                 <li><Link href="#">A propos</Link></li>
                 {/* <li className="current dropdown"><Link href="/">Home</Link>
                     <ul>
@@ -46,6 +46,7 @@ export default function Menu() {
                 </li> */}
                 <li><Link href="#">Projets réalisés</Link></li>
                 <li><Link href="#">Blog</Link></li>
+                {/* <li><Link href="/page-demo">Demande de demo</Link></li> */}
                 <li><Link href="/page-contact">Contact</Link></li>
                 
             </ul>
