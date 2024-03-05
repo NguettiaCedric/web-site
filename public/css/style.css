@@ -14021,7 +14021,7 @@ Sidebar
   line-height: 24px;
 }
 .contact-details__info li .text a {
-  font-size: 18px;
+  font-size: 14px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -14092,10 +14092,29 @@ Sidebar
 
 /*  */
 
+
+
 /* CSS for desktop */
 .desktop-only {
   display: block;
 }
+
+/* CSS for mobile */
+/* @media (max-width: 767px) {
+  .dim{
+      font-size: 14px;
+  }
+} */
+
+
+
+@media only screen and (max-width: 767px) {
+    .dimTexte {
+        font-size: 1em; /* 1em équivaut à la taille de police par défaut définie précédemment (14px) */
+    }
+}
+
+
 
 /* CSS for mobile */
 @media (max-width: 767px) {
@@ -14119,6 +14138,7 @@ Sidebar
   }
 }
 
+/*  */
 
 @media (max-width: 767.98px) {
   .contact-info-block .inner {

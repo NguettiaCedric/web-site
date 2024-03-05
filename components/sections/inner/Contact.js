@@ -140,7 +140,7 @@ export default function Contactpage() {
 										</div>
 										<div className="text">
 											<h6>Email</h6>
-											<a href="mailto:contact@croissancenumerique.ci">contact@croissancenumerique.ci</a>
+											<a className='dimTexte' href="mailto:contact@croissancenumerique.ci">contact@croissancenumerique.ci</a>
 										</div>
 									</li>
 									<li>
