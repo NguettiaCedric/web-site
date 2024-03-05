@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/accompagnement-digital": "pages/accompagnement-digital.js",
   "/sap-rsm": "pages/sap-rsm.js",
-  "/switch": "pages/switch.js"
+  "/switch": "pages/switch.js",
+  "/integration-de-solution": "pages/integration-de-solution.js"
 }
