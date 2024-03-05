@@ -48,8 +48,8 @@ export default function Footer1() {
                                         <div className="text-white">Croissance Numerique l'accélérateur de la transition digitale <br /> du secteur agricole en Afrique francophone.</div>
                                         <ul className="social-icon-two">
                                             {/* <li><Link href="/#"><i className="fab fa-twitter" /></Link></li> */}
-                                            <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL"><i className="fab fa-facebook" /></Link></li>
-                                            <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/"><i className="fab fa-linkedin" /></Link></li>
+                                            <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL" target="blank"><i className="fab fa-facebook" /></Link></li>
+                                            <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/" target="blank"><i className="fab fa-linkedin" /></Link></li>
                                             {/* <li><Link href="/#"><i className="fab fa-pinterest" style={{color:'#ffdd14'}} /></Link></li> */}
                                         </ul>
                                     </div>
@@ -59,8 +59,7 @@ export default function Footer1() {
                             <div className="footer-column col-xl-4 col-lg-4 col-md-6">
                                 <div className="widget links-widget">
                                     <h5 className="widget-title">Liens Utiles</h5>
-                                    <div className="widget-content">
-                                                                                
+                                    <div className="widget-content">                                                                   
                                         <ul className="user-links">
                                             <li><Link href="/" className="text-white">Accueil</Link></li>
                                             <li><Link href="/#" className="text-white">A propos</Link></li>

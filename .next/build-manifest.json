@@ -27,11 +27,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/page-projets": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/page-projets.js"
-    ],
     "/projet-TechnoServe": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
