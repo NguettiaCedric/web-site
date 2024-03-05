@@ -27,22 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-<<<<<<< HEAD
     "/page-contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/page-contact.js"
-=======
-    "/developpement-web": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/developpement-web.js"
->>>>>>> 9042844506138f238c4a9300551c7edcdc16414c
-    ],
-    "/sap-business-one": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sap-business-one.js"
     ]
   },
   "ampFirstPages": []
