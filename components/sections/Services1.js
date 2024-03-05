@@ -36,7 +36,7 @@ export default function Services1() {
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon flaticon-design" />
-                                    <h5 className="title"><Link href="/page-service-details"> Integration de solution</Link></h5>
+                                    <h5 className="title"><Link href="/integration-de-solution"> Integration de solution</Link></h5>
                                     <div className="text">Nous vous accompagnons dans l'integration de solution.</div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ export default function Services1() {
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon flaticon-megaphone" />
-                                    <h5 className="title"><Link href="/page-service-details">Accompagnement Digital</Link></h5>
+                                    <h5 className="title"><Link href="/accompagnement-digital">Accompagnement Digital</Link></h5>
                                     <div className="text">Nous vous accompagnons à travers la transition vers des solutions numériques.</div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ export default function Services1() {
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon  flaticon-web-development" />
-                                    <h5 className="title"><Link href="/page-service-details">Application <br />Développement</Link></h5>
+                                    <h5 className="title"><Link href="/developpement-web">Application <br />Développement</Link></h5>
                                     <div className="text">Nous mettons notre expertise à votre service pour vous guider tout au long du développement d'applications.</div>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@ export default function Services1() {
                                 </div>
                                 <div className="hover-content">
                                     <i className="icon flaticon-visitor" />
-                                    <h5 className="title"><Link href="/page-service-details">Switch <br /></Link></h5>
+                                    <h5 className="title"><Link href="/switch">Switch <br /></Link></h5>
                                     <div className="text">There are many variations of passages of available but the majority.</div>
                                 </div>
                             </div>
