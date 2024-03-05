@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/page-projets": "pages/page-projets.js",
-  "/projet-TechnoServe": "pages/projet-TechnoServe.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/projet-TechnoServe": "pages/projet-TechnoServe.js"
 }

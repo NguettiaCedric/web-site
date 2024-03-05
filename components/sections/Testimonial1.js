@@ -142,9 +142,9 @@ export default function Testimonial1() {
                                                     <i className="fa fa-star" />
                                                     <i className="fa fa-star" />
                                                 </div>
-                                                <figure className="thumb"><img src="/images/resource/testi-thumb-1.jpg" alt="" /></figure>
-                                                <h5 className="name">Bobo-Dioulasso</h5>
-                                                <span className="designation">Chief Financial Officer (CFO) ANATRANS SA</span>
+                                                <figure className="thumb"><img src="/images/resource/pdgTechnoServe.jpg" alt="pdgTechnoServe.jpg" /></figure>
+                                                <h5 className="name">William Warshauer</h5>
+                                                <span className="designation">PDG de TechnoServe</span>
                                             </div>
                                         </div>
                                     </SwiperSlide>
