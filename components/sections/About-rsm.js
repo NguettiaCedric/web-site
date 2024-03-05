@@ -37,6 +37,7 @@ export default function Aboutrsm() {
                                             <p style={{textAlign:'justify'}}>
                                             Accédez et analysez rapidement un grand volume de données en temps réel pour examiner et vérifier chaque source d’origine agricole de vos produits
                                             </p>
+                                        
                                     </div>
                                     <div className="info-box">
                                         <div className="inner">
