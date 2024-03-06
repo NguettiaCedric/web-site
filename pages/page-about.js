@@ -7,7 +7,7 @@ export default function About3() {
     return (
         <>
             <Layout headerStyle={2} footerStyle={1}>
-                <PageTitle pageName="About Page" />
+                <PageTitle pageName="A PROPOS DE NOUS" />
                 <About1 addClass={"pt-100 pb-50"} />
                 <Services1 />
                 <TeamInnerAbout />

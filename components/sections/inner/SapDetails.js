@@ -50,6 +50,37 @@ export default function SapDetails() {
       {/* Pourquoi SAP */}
         <About2 />
       <CtaBusiness />
+      <section className='py-5 container'>
+        <div className='row'>
+          <div className="col-xl-6 col-lg-6 col-md-6">
+            <div className="team-details__top-left">
+              <div className="team-details__top-img">
+                <img src="images/resource/sap-app.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className='col-md-6 col-lg-6'>
+            <p style={{textAlign:'justify'}}>
+              Obtenez un meilleur contrôle sur votre entreprise ou votre filiale avec SAP Business One. Rationalisez les processus clés, obtenez une meilleure compréhension de votre entreprise et prenez des décisions basées sur des informations en temps réel, afin de générer une croissance rentable.
+            </p>
+              <div className="info-box">
+                  <div className="inner">
+                      <h5 className="title"><i className="icon fa fa-circle-check" /> Déploiement sur site ou dans le cloud</h5>
+                  </div>
+              </div>
+              <div className="info-box">
+                  <div className="inner">
+                      <h5 className="title"><i className="icon fa fa-circle-check" /> Intégration avec la plateforme SAP HANA</h5>
+                  </div>
+              </div>
+              <div className="info-box">
+                  <div className="inner">
+                      <h5 className="title"><i className="icon fa fa-circle-check" /> Déploiement rapide</h5>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
