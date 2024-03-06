@@ -6,7 +6,7 @@ export default function Menu() {
         <>
             <ul className="navigation">
                 <li><Link href="/">Accueil</Link></li>
-                <li><Link href="#">A propos</Link></li>
+                <li><Link href="/page-about">A propos</Link></li>
                 {/* <li className="current dropdown"><Link href="/">Home</Link>
                     <ul>
                         <li><Link href="/">Home page 01</Link></li>

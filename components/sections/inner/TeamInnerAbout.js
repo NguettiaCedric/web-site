@@ -8,8 +8,7 @@ export default function TeamInnerAbout() {
             <section className="team-section pt-0">
                 <div className="auto-container">
                     <div className="sec-title text-center">
-                        <span className="sub-title">meet our team members</span>
-                        <h2>Meet the professional team <br />behind the success</h2>
+                        <h2>NOTRE EQUIPE</h2>
                     </div>
                     <div className="row">
                         {/* Team block */}
