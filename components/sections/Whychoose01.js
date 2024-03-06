@@ -22,7 +22,7 @@ export default function Whychoose01() {
                                         nous boostons la performance et la rentabilité de nos clients sur le long terme.
                                     </div>
                                     <div className="btn-box animate-2" style={{marginTop:'11px', marginBottom:'-24px'}}>
-                                        <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
+                                        <Link href="/a-propos" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                     </div>
                                     <span className="icon icon-arrow3" />
                                 </div>

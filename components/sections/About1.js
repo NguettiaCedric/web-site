@@ -18,34 +18,21 @@ export default function About1({ addClass }) {
                                         Croissance Numerique est une société ivoirienne d’experts, spécialisée dans la transformation digitale du secteur agricole. Avec 7 ans d’expérience, Croissance Numerique se positionne comme l'accélérateur
                                         de la transition digitale du secteur agricole en Afrique francophone. Grâce à notre maîtrise de solutions de pointe comme les ERP SAP, les plateformes de paiement mobile ou les solutions de traçabilités SAP RSM,
                                         nous boostons la performance et la rentabilité de nos clients sur le long terme.
+
+                                        <br />
+                                        Notre objectif : faire de nos clients des leaders de l'agriculture de demain grâce au digital !
+
+                                        <br />
+                                        Partenaire des leaders du secteur comme Cargill, notre objectif est d'aider nos clients à tirer pleinement profit du potentiel du digital. Nous les accompagnons de A à Z : audit numérique, feuille de route stratégique, déploiement de solutions ERP et mobiles, et formation des équipes.
+
+                                        <br /> 
+                                        Rejoignez notre réseau de clients satisfaits ! Avec Croissance Numerique, boostez dès maintenant la performance et la compétitivité de votre entreprise agricole.
+
                                     </div>
                                 </div>
-                                {/* Info Box */}
-                                {/* <div className="info-box">
-                                    <div className="inner">
-                                        <i className="icon flaticon-targeted-marketing" />
-                                        <h5 className="title">Leading in marketing</h5>
-                                        <div className="text">Knowledge of technologies rules better than anyone which we apply in our daily work</div>
-                                    </div>
-                                </div> */}
-                                {/* Info Box */}
-                                {/* <div className="info-box">
-                                    <div className="inner">
-                                        <i className="icon flaticon-diplomat" />
-                                        <h5 className="title">Expert developers</h5>
-                                        <div className="text">Knowledge of technologies rules better than anyone which we apply in our daily work</div>
-                                    </div>
-                                </div> */}
-                                <div className="">
-                                    {/* <div className="author-info">
-                                        <div className="inner">
-                                            <figure className="thumb"><img src="/images/resource/avatar.jpg" alt="" /></figure>
-                                            <h5 className="name">Aleesha brown</h5>
-                                            <span className="designation">CEO &amp; CO Founder</span>
-                                        </div>
-                                    </div> */}
+                                {/* <div className="">                                   
                                     <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">En savoir plus</span></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         {/* Image Column */}
@@ -54,7 +41,7 @@ export default function About1({ addClass }) {
                                 <span className="icon-dots bounce-y" />
                                 <span className="icon-circle zoom-one" />
                                 <figure className="image-1 wow fadeIn"><img src="/images/resource/about-1.jpg" alt="" /></figure>
-                                <figure className="image-2 wow fadeIn" data-wow-delay="600ms"><img src="/images/resource/about-2.jpg" alt="" /></figure>
+                                <figure className="image-2 wow fadeIn" data-wow-delay="600ms"><img src="/images/resource/about-02.jpg" alt="" /></figure>
                                 <div className="exp-box">
                                     <div className="inner">
                                         <i className="icon flaticon-promotion" />

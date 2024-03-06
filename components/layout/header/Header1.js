@@ -136,7 +136,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/" ><img src="/images/logo-cn.png" alt=""  /></Link>
+                                <Link href="/" ><img src="/images/logo-cn.png" alt="logo"  /></Link>
                             </div>
                             {/*Right Col*/}
                             <div className="nav-outer">

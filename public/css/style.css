@@ -14093,6 +14093,13 @@ Sidebar
 /*  */
 
 
+@media only screen and (max-width: 767px) {
+  .sliderText {
+      font-size: 34px; /* 1em équivaut à la taille de police par défaut définie précédemment (14px) */
+  }
+} 
+
+
 
 /* CSS for desktop */
 .desktop-only {

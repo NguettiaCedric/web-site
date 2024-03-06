@@ -25,7 +25,7 @@ export default function MobileMenu() {
             <ul className="navigation clearfix">
                 {/*Keep This Empty / Menu will come through Javascript*/}
                 <li className=""><Link href="/">Accueil</Link></li>                    
-                <li className=""><Link href="#">A propos</Link></li>                    
+                <li className=""><Link href="/a-propos">A propos</Link></li>                    
                                
                 {/* <li><Link href="/page-about">About</Link></li> */}
                 <li className="dropdown"><Link href="/page-team">Services</Link>

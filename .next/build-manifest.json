@@ -27,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/page-demo": [
+    "/a-propos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/page-demo.js"
+      "static/chunks/pages/a-propos.js"
+    ],
+    "/integration-de-solution": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/integration-de-solution.js"
+    ],
+    "/sap-business-one": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sap-business-one.js"
     ]
   },
   "ampFirstPages": []
