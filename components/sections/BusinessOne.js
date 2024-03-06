@@ -20,29 +20,8 @@ export default function BusinessOne({ addClass }) {
                                     </div>
                                 </div>
                                 {/* Info Box */}
-                                {/* <div className="info-box">
-                                    <div className="inner">
-                                        <i className="icon flaticon-targeted-marketing" />
-                                        <h5 className="title">Leading in marketing</h5>
-                                        <div className="text">Knowledge of technologies rules better than anyone which we apply in our daily work</div>
-                                    </div>
-                                </div> */}
-                                {/* Info Box */}
-                                {/* <div className="info-box">
-                                    <div className="inner">
-                                        <i className="icon flaticon-diplomat" />
-                                        <h5 className="title">Expert developers</h5>
-                                        <div className="text">Knowledge of technologies rules better than anyone which we apply in our daily work</div>
-                                    </div>
-                                </div> */}
-                                <div className="" style={{marginTop:'-9px'}}>
-                                    {/* <div className="author-info">
-                                        <div className="inner">
-                                            <figure className="thumb"><img src="/images/resource/avatar.jpg" alt="" /></figure>
-                                            <h5 className="name">Aleesha brown</h5>
-                                            <span className="designation">CEO &amp; CO Founder</span>
-                                        </div>
-                                    </div> */}
+                                
+                                <div className="desktop-only" style={{marginTop:'-9px'}}>                                   
                                     <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
                                 </div>
                             </div>
@@ -52,17 +31,14 @@ export default function BusinessOne({ addClass }) {
                             <div className="image-box">
                                 <span className="icon-dots bounce-y" />
                                 {/* <span className="icon-circle zoom-one" /> */}
-                                <figure className="image-1 wow fadeIn"><img src="/images/resource/sap-busines.png" alt="" /></figure>
-                                {/* <figure className="image-2 wow fadeIn" data-wow-delay="600ms"><img src="/images/resource/about-2.jpg" alt="" /></figure> */}
-                                {/* <div className="exp-box">
-                                    <div className="inner">
-                                        <i className="icon flaticon-promotion" />
-                                        <span className="count">7</span>
-                                        <div className="text">ans d’expérience</div>
-                                    </div>
-                                </div> */}
+                                <figure className="image-1 wow fadeIn"><img src="/images/resource/sap-busines.png" alt="" /></figure>                               
+                            </div>
+
+                            <div className="desktop-only-1">
+                                <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
                             </div>
                         </div>
+                                               
                     </div>
                 </div>
             </section>

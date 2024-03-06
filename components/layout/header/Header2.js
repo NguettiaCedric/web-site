@@ -71,7 +71,7 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                     {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><img src="/images/logo.png" alt=""  /></Link></div>
+                            <div className="nav-logo"><Link href="/"><img src="/images/logo-cn0.png" alt=""  /></Link></div>
                             <div className="close-btn" onClick={handleMobileMenu}><i className="icon fa fa-times" /></div>
                         </div>
                         <MobileMenu />
@@ -80,32 +80,32 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
-                                    <span className="title">Call Now</span>
-                                    <Link href="/tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <span className="title">Appeler</span>
+                                    <Link href="+225 07 07 17 04 07">+225 07 07 17 04 07</Link>
                                 </div>
                             </li>
                             <li>
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
-                                    <span className="title">Send Email</span>
-                                    <Link href="/mailto:help@company.com">help@company.com</Link>
+                                    <span className="title">Email</span>
+                                    <Link href="mailto:contact@croissancenumerique.ci">contact@croissancenumerique.ci</Link>
                                 </div>
                             </li>
-                            <li>
-                                {/* Contact Info Box */}
+                            {/* <li>
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-clock" />
                                     <span className="title">Send Email</span>
                                     Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                                 </div>
-                            </li>
+                            </li> */}
                         </ul>
                         <ul className="social-links">
-                            <li><Link href="/#"><i className="fab fa-twitter" /></Link></li>
-                            <li><Link href="/#"><i className="fab fa-facebook-f" /></Link></li>
-                            <li><Link href="/#"><i className="fab fa-pinterest" /></Link></li>
-                            <li><Link href="/#"><i className="fab fa-instagram" /></Link></li>
+                            <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL" target="blank"><span className="fab fa-facebook-square" style={{color:'#ffdd14'}} /></Link></li>
+                            <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/" target="blank"><span className="fa-brands fa-linkedin" style={{color:'#ffdd14'}}/></Link></li>
+                            
+                            {/* <li><Link href="/#"><i className="fab fa-pinterest" /></Link></li>
+                            <li><Link href="/#"><i className="fab fa-instagram" /></Link></li> */}
                         </ul>
                     </nav>
                 </div>{/* End Mobile Menu */}
