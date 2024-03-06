@@ -2,14 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
+  "/": "pages/index.js",
   "/a-propos": "pages/a-propos.js",
-  "/": "pages/index.js",
-  "/integration-de-solution": "pages/integration-de-solution.js",
-=======
-  "/page-about": "pages/page-about.js",
-  "/switch": "pages/switch.js",
-  "/": "pages/index.js",
->>>>>>> 8f885a6d015dee0a4223ad3f69c4c6c26f53e2b0
   "/sap-business-one": "pages/sap-business-one.js"
 }

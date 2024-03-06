@@ -6,11 +6,7 @@ export default function Menu() {
         <>
             <ul className="navigation">
                 <li><Link href="/">Accueil</Link></li>
-<<<<<<< HEAD
                 <li><Link href="/a-propos">A propos</Link></li>
-=======
-                <li><Link href="/page-about">A propos</Link></li>
->>>>>>> 8f885a6d015dee0a4223ad3f69c4c6c26f53e2b0
                 {/* <li className="current dropdown"><Link href="/">Home</Link>
                     <ul>
                         <li><Link href="/">Home page 01</Link></li>
