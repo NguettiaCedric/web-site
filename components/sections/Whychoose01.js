@@ -33,6 +33,7 @@ export default function Whychoose01() {
                                                 <i className="icon flaticon-design" />
                                                 <h5 className="title">Integration de solution</h5>
                                             </div>
+                                                {/* <h6 className="title">Integration de solution</h6> */}
                                         </div>
                                         <div className="info-box col-lg-4 col-md-4">
                                             <div className="inner">

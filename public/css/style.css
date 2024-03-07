@@ -239,6 +239,8 @@ a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+
 a:hover, a:focus {
   color: inherit;
   text-decoration: none;
@@ -14113,11 +14115,15 @@ Sidebar
   }
 } */
 
-
-
 @media only screen and (max-width: 767px) {
     .dimTexte {
         font-size: 1em; /* 1em équivaut à la taille de police par défaut définie précédemment (14px) */
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .servie-buttom {
+      display: none;
     }
 }
 

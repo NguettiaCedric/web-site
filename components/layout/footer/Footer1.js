@@ -13,7 +13,7 @@ export default function Footer1() {
                             <div className="contact-info-block col-lg-4 col-md-6">
                                 <div className="inner">
                                     <i className="icon fa fa-phone-square" />
-                                    <span className="sub-title">Appeler</span>
+                                    <span className="sub-title">Mobile</span>
                                     <div className="text"><Link href="/tel:+225 07 07 540 555">+225 07 07 540 555</Link></div>
                                 </div>
                             </div>

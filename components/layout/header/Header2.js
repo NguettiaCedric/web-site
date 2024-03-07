@@ -50,8 +50,8 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                             </nav>
                             {/* Main Menu End*/}
                         </div>
-                        <div className="outer-box">
                             {/* Header Search */}
+                        {/* <div className="outer-box">
                             <button className="ui-btn ui-btn search-btn" onClick={handleSearch}>
                                 <span className="icon lnr lnr-icon-search" />
                             </button>
@@ -60,9 +60,9 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                                 <small>Call Anytime</small>
                                 +92 (8800) - 9850
                             </Link>
+                        </div> */}
+                        <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
                             {/* Mobile Nav toggler */}
-                            <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
-                        </div>
                     </div>
                 </div>
                 {/* Mobile Menu  */}
@@ -80,7 +80,7 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
-                                    <span className="title">Appeler</span>
+                                    <span className="title">Mobile</span>
                                     <Link href="+225 07 07 17 04 07">+225 07 07 17 04 07</Link>
                                 </div>
                             </li>
@@ -110,7 +110,7 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                     </nav>
                 </div>{/* End Mobile Menu */}
                 {/* Header Search */}
-                <div className="search-popup">
+                {/* <div className="search-popup">
                     <span className="search-back-drop" onClick={handleSearch} />
                     <button className="close-search" onClick={handleSearch}><span className="fa fa-times" /></button>
                     <div className="search-inner">
@@ -121,7 +121,7 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> */}
                 {/* End Header Search */}
                 {/* Sticky Header  */}
                 <div className={`sticky-header ${scroll ? "fixed-header animated slideInDown" : ""}`}>
