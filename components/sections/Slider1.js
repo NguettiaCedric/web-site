@@ -38,8 +38,7 @@ export default function Slider1() {
                         <div className="auto-container">
                             <div className="content-box">
                                 <h1 className="title animate-1">SAP <br/> Business One</h1>
-                                <br />
-                                <div className="btn-box animate-2">
+                                <div className="btn-box animate-2 mt-3">
                                     <Link href="/sap-business-one" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>
@@ -51,7 +50,7 @@ export default function Slider1() {
                         <div className="auto-container">
                             <div className="content-box">
                                 <h1 className="title animate-1 slider-text">SAP Rural Sourcing Management (RSM)</h1>
-                                <div className="btn-box animate-2">
+                                <div className="btn-box animate-2 mt-3">
                                     <Link href="/sap-rsm" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>
@@ -62,9 +61,7 @@ export default function Slider1() {
                         <div className="auto-container">
                             <div className="content-box">
                                 <h1 className="title animate-1">Développement d’applications</h1>
-                                <div className="btn-box animate-2">
-                                    <br />
-                                    
+                                <div className="btn-box animate-2">                                 
                                     <Link href="/switch" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>
