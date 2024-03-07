@@ -50,7 +50,7 @@ export default function MobileMenu() {
                         <li><Link href="/page-projects">Projects Grid</Link></li>
                         <li><Link href="/page-project-details">Project Details</Link></li>
                     </ul> */}
-                    {/* <div className="dropdown-btn" onClick={() => handleClick(4)}><i className="fa fa-angle-down" /></div> */}
+                    <div className="dropdown-btn" onClick={() => handleClick(4)}><i className="fa fa-angle-down" /></div>
                 </li>
 
                 <li className=""><Link href="#">Blog</Link></li> 
@@ -63,9 +63,9 @@ export default function MobileMenu() {
                         <li><Link href="/news-grid">News Grid</Link></li>
                         <li><Link href="/news-details">News Details</Link></li>
                     </ul>
-                    <div className="dropdown-btn" onClick={() => handleClick(5)}><i className="fa fa-angle-down" /></div>
-                </li>
+                    </li>
                 <li><Link href="/page-contact">Contact</Link></li> */}
+                <div className="dropdown-btn" onClick={() => handleClick(5)}><i className="fa fa-angle-down" /></div>
             </ul>
 
         </>
