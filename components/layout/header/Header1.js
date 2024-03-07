@@ -27,15 +27,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 {/* <li><Link href="/#"><span className="fab fa-twitter" /></Link></li> */}
                                 <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL" target="blank"><span className="fab fa-facebook-square" style={{color:'#ffdd14'}} /></Link></li>
                                 <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/" target="blank"><span className="fa-brands fa-linkedin" style={{color:'#ffdd14'}}/></Link></li>
-                                <a class="theme-btn btn-style-one" style={{marginLeft: '11px',}} href="/page-demo"><span class="btn-title" style={{fontSize: '18px'}}>Demande de demo</span></a>
-                                                          
-                               
-                                {/* <li class="theme-btn btn-style-one hover-light" ><Link href="/page-demo"><span class="btn-title bdemohy" style={{fontWeight:'bold' }}>Demande de demo</span></Link></li> */}
-                                
-                                {/* <div className="btn-box animate-2">
-                                    <Link href="/sap-rsm" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
-                                </div> */}                        
-                                
+                                {/* <a class="theme-btn btn-style-one" style={{marginLeft: '11px',}} href="/page-demo"><span class="btn-title">Demande de demo</span></a> */}
+                                <li class="theme-btn btn-style-one" style={{marginLeft: '11px', color:'black'}}><Link href="/page-demo"><span class="btn-title">Demande de demo</span></Link></li>
                                 
                                 {/* 
                                 <li><Link href="/#"><span className="fab fa-facebook-square" /></Link></li>
@@ -70,7 +63,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 +92 (8800) - 9850
                             </Link> */}
                             {/* Mobile Nav toggler */}
-                            <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
+                            {/* <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div> */}
                         </div>
                     </div>
                 </div>
@@ -89,7 +82,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
-                                    <span className="title">Mobile</span>
+                                    <span className="title">Appeler</span>
                                     <Link href="/tel:+225 07 07 17 04 07">+225 07 07 17 04 07</Link>
                                 </div>
                             </li>
@@ -124,7 +117,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                 </div>
                 {/* End Mobile Menu */}
                 {/* Header Search */}
-                {/* <div className="search-popup">
+                <div className="search-popup">
                     <span className="search-back-drop" onClick={handleSearch} />
                     <button className="close-search" onClick={handleSearch}><span className="fa fa-times" /></button>
                     <div className="search-inner">
@@ -135,7 +128,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             </div>
                         </form>
                     </div>
-                </div> */}
+                </div>
                 {/* End Header Search */}
                 {/* Sticky Header  */}
                 <div className={`sticky-header ${scroll ? "fixed-header animated slideInDown" : ""}`}>
