@@ -38,6 +38,7 @@ export default function Slider1() {
                         <div className="auto-container">
                             <div className="content-box">
                                 <h1 className="title animate-1">SAP <br/> Business One</h1>
+                                <br />
                                 <div className="btn-box animate-2">
                                     <Link href="/sap-business-one" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
@@ -49,7 +50,7 @@ export default function Slider1() {
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider2.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
-                                <h1 className="title animate-1 sliderText">SAP Rural Sourcing Management (RSM)</h1>
+                                <h1 className="title animate-1 slider-text">SAP Rural Sourcing Management (RSM)</h1>
                                 <div className="btn-box animate-2">
                                     <Link href="/sap-rsm" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
@@ -62,6 +63,9 @@ export default function Slider1() {
                             <div className="content-box">
                                 <h1 className="title animate-1">Développement d’applications</h1>
                                 <div className="btn-box animate-2">
+                                    <br />
+                                    <br />
+                                    <br />
                                     <Link href="/switch" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>

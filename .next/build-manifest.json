@@ -27,10 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/a-propos": [
+    "/projet-cargill": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/a-propos.js"
+      "static/chunks/pages/projet-cargill.js"
+    ],
+    "/switch": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/switch.js"
     ]
   },
   "ampFirstPages": []
