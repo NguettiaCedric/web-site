@@ -64,8 +64,7 @@ export default function Slider1() {
                                 <h1 className="title animate-1">Développement d’applications</h1>
                                 <div className="btn-box animate-2">
                                     <br />
-                                    <br />
-                                    <br />
+                                    
                                     <Link href="/switch" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>
