@@ -55,7 +55,7 @@ export default function SapDetails() {
           <div className="col-xl-6 col-lg-6 col-md-6">
             <div className="team-details__top-left">
               <div className="team-details__top-img">
-                <img src="images/resource/sap-app.png" alt="" />
+                <img src="images/resource/sap-app.png" alt="SAP B1" />
               </div>
             </div>
           </div>

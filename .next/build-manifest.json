@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/sap-business-one": [
+    "/a-propos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/sap-business-one.js"
+      "static/chunks/pages/a-propos.js"
     ]
   },
   "ampFirstPages": []

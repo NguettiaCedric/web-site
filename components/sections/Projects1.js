@@ -21,7 +21,7 @@ export default function Projects1() {
                                     </div>
                                     <div className="content-box">
                                         <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
-                                        <span className="cat">Nous avons mis en place une instance de système de Management, Dépôt d'épargne,Traçabilité...</span>
+                                        <span className="cat">Nous avons mis en place une instance de système de Management, Dépôt d'épargne...</span>
                                         <h4 className="title"><Link href="/projet-cargill" >Cargill</Link></h4>
                                     </div>
                                 </div>
@@ -34,7 +34,8 @@ export default function Projects1() {
                                     </div>
                                     <div className="content-box">
                                         <Link href="/projet-TechnoServe" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
-                                        <span className="cat">Nous avons mis en place dans le domaine de la noix de cajou, un système de géoréférence des plantations des producteurs ...</span>
+                                        <span className="cat">
+                                        Nous avons mis en place dans le domaine de la noix de cajou...</span>
                                         <h4 className="title"><Link href="/projet-TechnoServe" >TechnoServe & Tolaro Global</Link></h4>
                                     </div>
                                 </div>
@@ -47,8 +48,7 @@ export default function Projects1() {
                                     </div>
                                     <div className="content-box">
                                         <Link href="/projet-Fairtrade " className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
-                                        <span className="cat">Dans le domaine du CACAO, nous avons implanté dans plus 50 coopératives un système de Management
-                                         pour garantir l’approvisionnement des matières premières...</span>
+                                        <span className="cat">Dans le domaine du CACAO, nous avons implanté dans plus de 50 coopératives...</span>
                                         <h4 className="title"><Link href="/projet-Fairtrade" >Fairtrade</Link></h4>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ export default function Projects1() {
                                     </div>
                                     <div className="content-box">
                                         <Link href="/projet-CADESA" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
-                                        <span className="cat">Nous avons Implémenter dans le domaine du CACAO un système de Management pour garantir l’approvisionnement des matières premières à l’usine et assurer la traçabilité.</span>
+                                        <span className="cat">Nous avons implémenter dans le domaine du CACAO un système de Management...</span>
                                         <h4 className="title"><Link href="/projet-CADESA" >CADESA</Link></h4>
                                     </div>
                                 </div>
