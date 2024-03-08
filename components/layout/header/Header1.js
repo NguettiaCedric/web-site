@@ -59,11 +59,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             </nav>
                             {/* Main Menu End*/}
                         </div>
+                       
+                       
+                       
                         <div className="outer-box">
                             {/* Header Search */}
-                            {/* <button className="ui-btn ui-btn search-btn" onClick={handleSearch}>
+                            <button className="ui-btn ui-btn search-btn" onClick={handleSearch}>
                                 <span className="icon lnr lnr-icon-search" />
-                            </button> */}
+                            </button>
                             {/* <Link href="/tel:+92(8800)9806" className="info-btn">
                                 <i className="icon lnr-icon-phone-handset" />
                                 <small>Call Anytime</small>
@@ -72,6 +75,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             {/* Mobile Nav toggler */}
                             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
                         </div>
+
+
+
+
                     </div>
                 </div>
                 {/* Mobile Menu  */}
@@ -124,7 +131,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                 </div>
                 {/* End Mobile Menu */}
                 {/* Header Search */}
-                {/* <div className="search-popup">
+                <div className="search-popup">
                     <span className="search-back-drop" onClick={handleSearch} />
                     <button className="close-search" onClick={handleSearch}><span className="fa fa-times" /></button>
                     <div className="search-inner">
@@ -135,7 +142,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             </div>
                         </form>
                     </div>
-                </div> */}
+                </div>
                 {/* End Header Search */}
                 {/* Sticky Header  */}
                 <div className={`sticky-header ${scroll ? "fixed-header animated slideInDown" : ""}`}>
