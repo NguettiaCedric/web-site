@@ -14092,28 +14092,75 @@ Sidebar
   display: none;
 }
 
-/*  */
+/* ======================= Mon css ======================================= */
 
+
+
+.project-block {
+  position: relative;
+}
+
+.yellow-box {
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  background-color: #ffdd15;
+  border-radius: 30px 90px 20px 30px;
+  transform: skew(-22deg);
+  /* height: 100%; */
+  /* width: 100%; */
+  /* left: -120px; */
+  /* width: 400px; */
+  padding: 10px; 
+  font-size: 10px;
+}
+
+
+/* CSS for desktop */
+.projets-desktop {
+  display: block;
+}
 
 @media only screen and (max-width: 767px) {
+  .projets-desktop {
+      display: none;
+    }
+}
+
+/* CSS for desktop */
+.projets-mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .projets-mobile{
+      display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 767px) {
   .sliderText {
-      font-size: 34px; /* 1em équivaut à la taille de police par défaut définie précédemment (14px) */
+      font-size: 34px;
   }
-} 
-
-
+} */ 
 
 /* CSS for desktop */
 .desktop-only {
   display: block;
 }
-
-/* CSS for mobile */
-/* @media (max-width: 767px) {
-  .dim{
-      font-size: 14px;
-  }
-} */
 
 @media only screen and (max-width: 767px) {
     .dimTexte {
@@ -14126,9 +14173,6 @@ Sidebar
       display: none;
     }
 }
-
-
-
 
 /* CSS for mobile */
 @media (max-width: 767px) {
@@ -14151,6 +14195,13 @@ Sidebar
     display: flex;
   }
 }
+
+
+
+
+
+/* ======================= Mon css ======================================= */
+
 
 /*  */
 

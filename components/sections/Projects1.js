@@ -11,7 +11,9 @@ export default function Projects1() {
                         {/* <span className="sub-title">our portfolio</span> */}
                         <h2 className="mt-2">Découvrez nos <br/> projets</h2>
                     </div>
-                    <div className="outer-box">
+
+                    {/* ===== Vue desktop projets =====*/}                       
+                    <div className="outer-box projets-desktop">                        
                         <div className="row">
                             {/* Project Block */}
                             <div className=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
@@ -65,9 +67,71 @@ export default function Projects1() {
                                         <h4 className="title"><Link href="/projet-CADESA" >CADESA</Link></h4>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </div>  
+                        </div>             
                     </div>
+                    {/* ===== Vue desktop projets ===== */}
+
+
+                    {/* =====  Vue mobile projets ==== */}                       
+                    <div className="outer-box projets-mobile">                        
+                        <div className="row">
+                            {/* Project Block */}
+                            <div className="project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <figure className="image"><Link href="/projet-cargill"><img src="/images/resource/img-Cargill.jpg" alt="" /></Link></figure>
+                                    </div>
+                                    <div className="yellow-box">
+                                        <h4 className="title"><Link href="/projet-cargill p-2">Cargill</Link></h4>
+                                        <span className="cat">Nous avons mis en place une instance de système de Management, Dépôt d'épargne...</span>
+                                        <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                    </div>
+                                </div>
+                            </div> 
+                            {/* Project Block */}
+                            <div className="project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <figure className="image"><Link href="/projet-TechnoServe"><img src="/images/resource/img-tec02.jpg" alt="" /></Link></figure>
+                                    </div>
+                                    <div className="yellow-box">
+                                        <h4 className="title"><Link href="/projet-TechnoServe p-2">TechnoServe & Tolaro Global</Link></h4>
+                                        <span className="cat">Nous avons mis en place dans le domaine de la noix de cajou...</span>
+                                        <Link href="/projet-TechnoServe" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                    </div>
+                                </div>
+                            </div> 
+                            {/* Project Block */}
+                            <div className="project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <figure className="image"><Link href="/projet-Fairtrade"><img src="/images/resource/img-fairtrade01-.jpg" alt="" /></Link></figure>
+                                    </div>
+                                    <div className="yellow-box">
+                                        <h4 className="title"><Link href="/projet-Fairtrade p-2">Fairtrade</Link></h4>
+                                        <span className="cat">Dans le domaine du CACAO, nous avons implanté dans plus de 50 coopératives...</span>
+                                        <Link href="/projet-Fairtrade" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                    </div>
+                                </div>
+                            </div> 
+                            {/* Project Block */}
+                            <div className="project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <figure className="image"><Link href="/projet-CADESA"><img src="/images/resource/img-cadesa01.jpg" alt="" /></Link></figure>
+                                    </div>
+                                    <div className="yellow-box">
+                                        <h4 className="title"><Link href="/projet-CADESA p-2">CADESA</Link></h4>
+                                        <span className="cat">Nous avons implémenter dans le domaine du CACAO un système de Management...</span>
+                                        <Link href="/projet-CADESA" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                    </div>
+                                </div>
+                            </div>                                              
+                        </div>                   
+                    </div>
+                    {/* ==== Vue mobile projets ====  */}
+
                 </div>
             </section>
         </>
