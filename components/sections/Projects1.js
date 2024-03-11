@@ -88,7 +88,6 @@ export default function Projects1() {
                                             <Link href="/projet-cargill" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
                                             <br />
                                             <br />
-                                            <br />
                                             <span className="cat mobile-text">Nous avons mis en place une instance de système de Management, Dépôt d'épargne...</span>
                                             <br />
                                             <br />
