@@ -83,13 +83,18 @@ export default function Projects1() {
                                         <figure className="image"><Link href="/projet-cargill"><img src="/images/resource/img-Cargill.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
+
+                                        <div className="hum"> 
                                         <Link href="/projet-cargill" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
                                         <br />
                                         <br />
                                         <span className="cat mobile-text">Nous avons mis en place une instance de système de Management, Dépôt d'épargne...</span>
                                         <h4 className="title"><Link href="/projet-cargill">Cargill</Link></h4>
                                         <br />
+                                         </div>
+                                        
                                         {/* <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link> */}
+                                    
                                     </div>
                                 </div>
                             </div> 
