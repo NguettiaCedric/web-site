@@ -104,6 +104,7 @@ export default function Projects1() {
                                         <br />
                                         <br />
                                         <span className="cat mobile-text">Nous avons mis en place dans le domaine de la noix de cajou...</span>
+                                        <br />
                                         <h4 className="title"><Link href="/projet-TechnoServe">TechnoServe & Tolaro Global</Link></h4>
                                         
                                         {/* <Link href="/projet-TechnoServe" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link> */}
@@ -118,6 +119,7 @@ export default function Projects1() {
                                     </div>
                                     <div className="yellow-box">
                                         <Link href="/projet-Fairtrade" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
+                                        <br />
                                         <br />
                                         <span className="cat mobile-text">Dans le domaine du CACAO, nous avons implanté dans plus de 50 coopératives...</span>
                                         <h4 className="title"><Link href="/projet-Fairtrade">Fairtrade</Link></h4>
