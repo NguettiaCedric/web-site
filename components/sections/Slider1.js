@@ -33,7 +33,7 @@ export default function Slider1() {
             <section className="banner-section">
                 <Swiper {...swiperOptions} className="banner-carousel owl-carousel owl-theme default-navs">
                     {/* Slide Item */}
-                    <SwiperSlide className="slide-item">
+                   {/*  <SwiperSlide className="slide-item">
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider1.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
@@ -43,21 +43,21 @@ export default function Slider1() {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider2.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
                                 <h1 className="title animate-1 slider-text">SAP Resource Sourcing Management (RSM) <br /> </h1>
-                                {/* <span className="text-white pb-4 mb-4"> </span> */}
+                                
                                 <div className="btn-box animate-2">
                                     <Link href="/sap-rsm" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="slide-item">
+                   {/*  <SwiperSlide className="slide-item">
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider3.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
@@ -67,7 +67,7 @@ export default function Slider1() {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                     <div className="owl-nav" style={{zIndex:"999"}}>
                         <div className="owl-prev h1p">
                             <span className="fa fa-long-arrow-alt-left" />
