@@ -5801,7 +5801,8 @@ Section Title
 .marquee-section {
   position: relative;
   /* background-color: var(--bg-theme-color1); */
-  background-color: #00adee;
+  /* background-color: #00adee; */
+  background-color: #1b75bb;
   padding: 15px 0;
 }
 
