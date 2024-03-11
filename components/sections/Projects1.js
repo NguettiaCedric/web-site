@@ -83,10 +83,12 @@ export default function Projects1() {
                                         <figure className="image"><Link href="/projet-cargill"><img src="/images/resource/img-Cargill.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
-                                        <h4 className="title"><Link href="/projet-cargill">Cargill</Link></h4>
                                         <Link href="/projet-cargill" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
                                         <br />
+                                        <br />
                                         <span className="cat mobile-text">Nous avons mis en place une instance de système de Management, Dépôt d'épargne...</span>
+                                        <h4 className="title"><Link href="/projet-cargill">Cargill</Link></h4>
+                                        <br />
                                         {/* <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link> */}
                                     </div>
                                 </div>
@@ -98,10 +100,12 @@ export default function Projects1() {
                                         <figure className="image"><Link href="/projet-TechnoServe"><img src="/images/resource/img-tec02.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
-                                        <h4 className="title"><Link href="/projet-TechnoServe">TechnoServe & Tolaro Global</Link></h4>
                                         <Link href="/projet-TechnoServe" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
                                         <br />
+                                        <br />
                                         <span className="cat mobile-text">Nous avons mis en place dans le domaine de la noix de cajou...</span>
+                                        <h4 className="title"><Link href="/projet-TechnoServe">TechnoServe & Tolaro Global</Link></h4>
+                                        
                                         {/* <Link href="/projet-TechnoServe" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link> */}
                                     </div>
                                 </div>
@@ -113,10 +117,11 @@ export default function Projects1() {
                                         <figure className="image"><Link href="/projet-Fairtrade"><img src="/images/resource/img-fairtrade01-.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
-                                        <h4 className="title"><Link href="/projet-Fairtrade">Fairtrade</Link></h4>
                                         <Link href="/projet-Fairtrade" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
                                         <br />
                                         <span className="cat mobile-text">Dans le domaine du CACAO, nous avons implanté dans plus de 50 coopératives...</span>
+                                        <h4 className="title"><Link href="/projet-Fairtrade">Fairtrade</Link></h4>
+                                        <br />
                                         {/* <Link href="/projet-Fairtrade" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link> */}
                                     </div>
                                 </div>
@@ -128,10 +133,12 @@ export default function Projects1() {
                                         <figure className="image"><Link href="/projet-CADESA"><img src="/images/resource/img-cadesa01.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
-                                        <h4 className="title"><Link href="/projet-CADESA">CADESA</Link></h4>
                                         <Link href="/projet-CADESA" className="icon text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
                                         <br />
+                                        <br />
                                         <span className="cat mobile-text">Nous avons implémenter dans le domaine du CACAO un système de Management...</span>
+                                        <h4 className="title"><Link href="/projet-CADESA">CADESA</Link></h4>
+                                        <br />
                                         {/* <Link href="/projet-CADESA" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link> */}
                                     </div>
                                 </div>
