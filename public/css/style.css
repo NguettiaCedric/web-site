@@ -14094,6 +14094,15 @@ Sidebar
 
 /* ======================= Mon css ======================================= */
 
+.cercle-mobile {
+  background: #090909;
+  border-radius: 50%;
+  color: wheat;
+  height: 28px;
+  width: 22px;
+}
+
+
 .mobile-text {
   color: black;
 }

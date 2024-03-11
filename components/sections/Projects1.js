@@ -84,8 +84,10 @@ export default function Projects1() {
                                     </div>
                                     <div className="yellow-box">
                                         <h4 className="title"><Link href="/projet-cargill">Cargill</Link></h4>
+                                        <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
+                                            <br />
                                         <span className="cat mobile-text">Nous avons mis en place une instance de système de Management, Dépôt d'épargne...</span>
-                                        <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                        {/* <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link> */}
                                     </div>
                                 </div>
                             </div> 
