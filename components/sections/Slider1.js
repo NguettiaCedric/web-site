@@ -33,7 +33,7 @@ export default function Slider1() {
             <section className="banner-section">
                 <Swiper {...swiperOptions} className="banner-carousel owl-carousel owl-theme default-navs">
                     {/* Slide Item */}
-                   {/*  <SwiperSlide className="slide-item">
+                    <SwiperSlide className="slide-item">
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider1.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
@@ -43,7 +43,7 @@ export default function Slider1() {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide> */}
+                    </SwiperSlide>
                     {/* Slide Item */}
                     <SwiperSlide className="slide-item">
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider2.jpg)' }} />
@@ -57,7 +57,7 @@ export default function Slider1() {
                             </div>
                         </div>
                     </SwiperSlide>
-                   {/*  <SwiperSlide className="slide-item">
+                    <SwiperSlide className="slide-item">
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/slider3.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
@@ -67,7 +67,7 @@ export default function Slider1() {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide> */}
+                    </SwiperSlide>
                     <div className="owl-nav" style={{zIndex:"999"}}>
                         <div className="owl-prev h1p">
                             <span className="fa fa-long-arrow-alt-left" />
