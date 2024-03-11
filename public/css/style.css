@@ -14118,10 +14118,13 @@ Sidebar
   position: relative;
 }
 
+.yellow-text {
+  transform: skew(13deg);
+}
 .yellow-box {
   position: absolute;
   bottom: 0;
-  left: -40px;
+  left: -46px;
   background-color: #ffdd15;
   background-color: rgb(255 221 21 / 70%);
   /* background-color: var(--bg-theme-color1); */

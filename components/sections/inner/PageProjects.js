@@ -72,8 +72,9 @@ export default function ProjectInner() {
                 </div>
                 {/* Vue desktop */}
 
-                {/* Vue mobile */}
-                <div className="auto-container projets-mobile">
+
+                {/* =====  Vue mobile projets ==== */}                       
+                <div className="outer-box projets-mobile">                        
                         <div className="row">
                             {/* Project Block */}
                             <div className="project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
@@ -82,9 +83,20 @@ export default function ProjectInner() {
                                         <figure className="image"><Link href="/projet-cargill"><img src="/images/resource/img-Cargill.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
-                                        <h4 className="title"><Link href="/projet-cargill">Cargill</Link></h4>
-                                        <span className="cat mobile-text">Nous avons mis en place une instance de système de Management, Dépôt d'épargne...</span>
-                                        <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                        <div className="yellow-text"> 
+                                            <br />
+                                            <Link href="/projet-cargill" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
+                                            <br />
+                                            <br />
+                                            <br />
+                                            <span className="cat mobile-text">Nous avons mis en place une instance de système de Management, Dépôt d'épargne...</span>
+                                            <br />
+                                            <br />
+                                            <h4 className="title"><Link href="/projet-cargill">Cargill</Link></h4>
+                                        </div>
+                                        
+                                        {/* <Link href="/projet-cargill" className="icon"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link> */}
+                                    
                                     </div>
                                 </div>
                             </div> 
@@ -95,9 +107,18 @@ export default function ProjectInner() {
                                         <figure className="image"><Link href="/projet-TechnoServe"><img src="/images/resource/img-tec02.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
-                                        <h4 className="title"><Link href="/projet-TechnoServe">TechnoServe & Tolaro Global</Link></h4>
-                                        <span className="cat mobile-text">Nous avons mis en place dans le domaine de la noix de cajou...</span>
-                                        <Link href="/projet-TechnoServe" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                        <div className="yellow-text">
+                                            <br />
+                                            <Link href="/projet-TechnoServe" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
+                                            <br />
+                                            <br />
+                                            <span className="cat mobile-text">Nous avons mis en place dans le domaine de la noix de cajou...</span>
+                                            <br />
+                                            <br />
+                                            <h4 className="title"><Link href="/projet-TechnoServe">TechnoServe & Tolaro Global</Link></h4>                                      
+                                        {/* <Link href="/projet-TechnoServe" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link> */}
+                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div> 
@@ -108,9 +129,17 @@ export default function ProjectInner() {
                                         <figure className="image"><Link href="/projet-Fairtrade"><img src="/images/resource/img-fairtrade01-.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
-                                        <h4 className="title"><Link href="/projet-Fairtrade">Fairtrade</Link></h4>
-                                        <span className="cat mobile-text">Dans le domaine du CACAO, nous avons implanté dans plus de 50 coopératives...</span>
-                                        <Link href="/projet-Fairtrade" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                        <div className="yellow-text">
+                                            <br />
+                                            <Link href="/projet-Fairtrade" className="icon  text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
+                                            <br />
+                                            <br />
+                                            <span className="cat mobile-text">Dans le domaine du CACAO, nous avons implanté dans plus de 50 coopératives...</span>
+                                            <br />
+                                            <br />
+                                            <h4 className="title"><Link href="/projet-Fairtrade">Fairtrade</Link></h4>
+                                            {/* <Link href="/projet-Fairtrade" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link> */}
+                                        </div>                                       
                                     </div>
                                 </div>
                             </div> 
@@ -121,15 +150,24 @@ export default function ProjectInner() {
                                         <figure className="image"><Link href="/projet-CADESA"><img src="/images/resource/img-cadesa01.jpg" alt="" /></Link></figure>
                                     </div>
                                     <div className="yellow-box">
-                                        <h4 className="title"><Link href="/projet-CADESA">CADESA</Link></h4>
-                                        <span className="cat mobile-text">Nous avons implémenter dans le domaine du CACAO un système de Management...</span>
-                                        <Link href="/projet-CADESA" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                        <div className="yellow-text">
+                                            <br />
+                                            <Link href="/projet-CADESA" className="icon text-center"><i className="fa fa-long-arrow-alt-right cercle-mobile" /></Link>
+                                            <br />
+                                            <br />
+                                            <span className="cat mobile-text">Nous avons implémenter dans le domaine du CACAO un système de Management...</span>
+                                            <br />
+                                            <br />
+                                            <h4 className="title"><Link href="/projet-CADESA">CADESA</Link></h4>
+                                            {/* <Link href="/projet-CADESA" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link> */}
+                                        </div>
+                                      
                                     </div>
                                 </div>
                             </div>                                              
-                        </div> 
+                        </div>                   
                 </div>
-                {/* Vue mobile */}
+                {/* ==== Vue mobile projets ====  */}
 
             </section>
         </>
