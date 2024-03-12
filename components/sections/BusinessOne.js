@@ -22,7 +22,7 @@ export default function BusinessOne({ addClass }) {
                                 {/* Info Box */}
                                 
                                 <div className="desktop-only" style={{marginTop:'-9px'}}>                                   
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
+                                    <Link href="sap-business-one" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ export default function BusinessOne({ addClass }) {
                             </div>
 
                             <div className="desktop-only-1">
-                                <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
+                                <Link href="sap-business-one" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
                             </div>
                         </div>
                                                

@@ -20,32 +20,37 @@ export default function MobileMenu() {
             })
         }
     }
+
+    const handleMobileMenu = () => {
+        document.body.classList.remove("mobile-menu-visible")
+   }
+
     return (
         <>
             <ul className="navigation clearfix">
                 {/*Keep This Empty / Menu will come through Javascript*/}
-                <li className=""><Link href="/">Accueil</Link></li>                    
-                <li className=""><Link href="/a-propos">A propos</Link></li>                    
+                <li className=""><Link onClick={() => { handleMobileMenu()}} href="/">Accueil</Link></li>                    
+                <li className=""><Link onClick={() => { handleMobileMenu()}} href="/a-propos">A propos</Link></li>                    
                                
                 {/* <li><Link href="/page-about">About</Link></li> */}
                 <li className="dropdown"><Link href="/page-team">Services</Link>
                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                        <li><Link href="/integration-de-solution">Integration De Solutions</Link></li>
-                        <li><Link href="/accompagnement-digital">Accompagnement Digital</Link></li>
-                        <li><Link href="/developpement-web">Développement Web</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/integration-de-solution">Integration De Solutions</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/accompagnement-digital">Accompagnement Digital</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/developpement-web">Développement Web</Link></li>
                     </ul>
                     <div className="dropdown-btn" onClick={() => handleClick(2)}><i className="fa fa-angle-down" /></div>
                 </li>
                 <li className="dropdown"><Link href="/page-services">Solutions</Link>
                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                        <li><Link href="/sap-business-one">SAP Business One</Link></li>
-                        <li><Link href="/sap-rsm">SAP RSM</Link></li>
-                        <li><Link href="/switch">Switch</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/sap-business-one">SAP Business One</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/sap-rsm">SAP RSM</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/switch">Switch</Link></li>
                     </ul>
                     <div className="dropdown-btn" onClick={() => handleClick(3)}><i className="fa fa-angle-down" /></div>
                 </li>
 
-                <li className=""><Link href="/page-projets">Projets réalisés</Link>
+                <li className=""><Link onClick={() => { handleMobileMenu()}} href="/page-projets">Projets réalisés</Link>
                     {/* <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                         <li><Link href="/page-projects">Projects Grid</Link></li>
                         <li><Link href="/page-project-details">Project Details</Link></li>
@@ -55,8 +60,8 @@ export default function MobileMenu() {
 
                 <li className=""><Link href="#">Blog</Link></li> 
 
-                <li className=""><Link href="/page-contact">Contact</Link></li> 
-                <li className=""><Link href="/page-demo">Demande Demo</Link></li> 
+                <li className=""><Link onClick={() => { handleMobileMenu()}} href="/page-contact">Contact</Link></li> 
+                <li className=""><Link onClick={() => { handleMobileMenu()}} href="/page-demo">Demande Demo</Link></li> 
                 
                 {/* <li className="dropdown"><Link href="/news-grid">News</Link>
                     <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>

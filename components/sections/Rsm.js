@@ -20,7 +20,7 @@ export default function Rsm({ addClass }) {
                                     </div>
                                 </div>
                                 <div className="desktop-only">
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
+                                    <Link href="/sap-rsm" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ export default function Rsm({ addClass }) {
                             </div>
 
                             <div className="desktop-only-1">
-                                <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
+                                <Link href="/sap-rsm" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
                             </div>
                         </div>
                     </div>
