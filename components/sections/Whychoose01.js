@@ -17,9 +17,23 @@ export default function Whychoose01() {
                                     {/* <i className="sub-title">company benefits</i> */}
                                     <h2 >A propos</h2>
                                     {/* <h4 className="other-title">Proin est lacus, sagittis lobortis iaculise get.</h4> */}
-                                    <div className="text"  style={{textAlign:'justify'}}>Croissance Numerique est une société ivoirienne d’experts, spécialisée dans la transformation digitale du secteur agricole. Avec 7 ans d’expérience, Croissance Numerique se positionne comme l'accélérateur
-                                        de la transition digitale du secteur agricole en Afrique francophone. Grâce à notre maîtrise de solutions de pointe comme les ERP SAP, les plateformes de paiement mobile ou les solutions de traçabilités SAP RSM,
-                                        nous boostons la performance et la rentabilité de nos clients sur le long terme.
+                                    <div className="text"  style={{textAlign:'justify'}}>
+                                        
+                                    Croissance Numerique, l'accélérateur de la transformation digitale en Afrique. <br />
+
+                                    Créé en 2015, Croissance Numerique est un cabinet conseil ivoirien spécialisé dans l'accompagnement à la transition digitale des entreprises en Afrique francophone. 
+                                    Forts de 7 ans d'expertise dans des secteurs aussi variés que l'agriculture, la distribution, la finance ou l'industrie, nous maîtrisons les meilleures solutions pour
+                                    optimiser les process métiers : ERP SAP, mobilité, analyse de données, paiements dématérialisés...
+                                        
+
+                                        
+                                    {/* Croissance Numerique est une société ivoirienne d’experts, spécialisée dans la transformation digitale du secteur agricole. Avec 7 ans d’expérience, Croissance Numerique se positionne comme l'accélérateur
+                                    de la transition digitale du secteur agricole en Afrique francophone. Grâce à notre maîtrise de solutions de pointe comme les ERP SAP, les plateformes de paiement mobile ou les solutions de traçabilités SAP RSM,
+                                    nous boostons la performance et la rentabilité de nos clients sur le long terme. */}
+
+
+
+
                                     </div>
                                     <div className="btn-box animate-2" style={{marginTop:'11px', marginBottom:'-24px'}}>
                                         <Link href="/a-propos" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>

@@ -32,10 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/a-propos.js"
     ],
-    "/page-projets": [
+    "/sap-business-one": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/page-projets.js"
+      "static/chunks/pages/sap-business-one.js"
     ]
   },
   "ampFirstPages": []

@@ -49,6 +49,7 @@ export default function Footer1() {
                                         <ul className="social-icon-two">
                                             {/* <li><Link href="/#"><i className="fab fa-twitter" /></Link></li> */}
                                             <li><Link href="https://www.facebook.com/croissancenumerique?mibextid=ZbWKwL" target="blank"><i className="fab fa-facebook" /></Link></li>
+                                            <li><Link href="https://twitter.com/i/flow/login?redirect_after_login=%2FCroissanceNum" target="blank"><span className="fab fa-twitter" /></Link></li>
                                             <li><Link href="https://www.linkedin.com/company/croissance-num%C3%A9rique/" target="blank"><i className="fab fa-linkedin" /></Link></li>
                                             {/* <li><Link href="/#"><i className="fab fa-pinterest" style={{color:'#ffdd14'}} /></Link></li> */}
                                         </ul>

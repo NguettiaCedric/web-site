@@ -22,16 +22,17 @@ export default function About2() {
                             <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
                                 <div className="inner-column">
                                     <div className="sec-title">
-                                        <h2>Pourquoi SAP Business One ?</h2>
+                                        <h3>Une visibilité à 360° sur toutes vos opérations</h3>
                                         <div className="text">
                                             <p className='text-justify'>
-                                            SAP Business One est la solution idéale pour les petites et moyennes entreprises cherchant à
-                            optimiser leurs opérations. Voici les raisons pour lesquelles vous devez l'utiliser pour votre
-                            gestion
+                                                Grâce à des modules dédiés à la comptabilité, aux finances, aux ventes, aux achats, à la logistique et aux projets, 
+                                                SAP Business One vous permet de suivre en temps réel l'ensemble de vos activités : commandes clients, stocks, facturation, trésorerie, production, planning... 
+                                                Depuis un seul tableau de bord, gagnez en réactivité pour piloter efficacement la performance de votre entreprise.
+                                            {/* SAP Business One est la solution idéale pour les petites et moyennes entreprises cherchant à optimiser leurs opérations. Voici les raisons pour lesquelles vous devez l'utiliser pour votre gestion */}
                                             </p>
                                         </div>
                                     </div>
-                                    <div className="row">
+                                    {/* <div className="row">
                                         <div className="info-box col-lg-6 col-md-6">
                                             <div className="inner">
                                                 <h5 className="title"><i className="icon fa fa-circle-check" /> INTÉGRATION COMPLÈTE DES PROCESSUS COMMERCIAUX</h5>
@@ -44,7 +45,7 @@ export default function About2() {
                                                 <div className="text" style={{textAlign:'justify'}}>SAP Business One offre des capacités avancées d'analyse et de reporting, ce qui permet aux entreprises de prendre des décisions plus éclairées basées sur des données en temps réel.</div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="bottom-box">
                                         <Link href="/page-about" className="theme-btn btn-style-one hvr-dark"><span className="btn-title">Demander une démo</span></Link>
                                     </div>
@@ -52,7 +53,7 @@ export default function About2() {
                             </div>
                             {/* Image Column */}
                             <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
-                                <div className="inner-column wow fadeInLeft">
+                                <div className="inner-column wow fadeInLeft" style={{marginTop:' -70px'}}>
                                     <div className="image-box">
                                         <span className="icon-dots2" />
                                         <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/sap-business-one.png" alt="" /></figure>
