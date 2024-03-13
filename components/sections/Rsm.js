@@ -33,7 +33,7 @@ export default function Rsm({ addClass }) {
                                 
                             </div>
 
-                            <div className="desktop-only-1">
+                            <div className="desktop-only-1 mt-3">
                                 <Link href="/sap-rsm" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
                             </div>
                         </div>

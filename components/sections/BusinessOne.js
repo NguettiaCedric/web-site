@@ -34,7 +34,7 @@ export default function BusinessOne({ addClass }) {
                                 <figure className="image-1 wow fadeIn"><img src="/images/resource/sap-busines.png" alt="" /></figure>                               
                             </div>
 
-                            <div className="desktop-only-1">
+                            <div className="desktop-only-1 mt-3">
                                 <Link href="sap-business-one" className="theme-btn btn-style-one"><span className="btn-title">Découvrir</span></Link>
                             </div>
                         </div>
