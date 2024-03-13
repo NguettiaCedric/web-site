@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/sap-business-one": "pages/sap-business-one.js",
   "/a-propos": "pages/a-propos.js",
-  "/page-demo": "pages/page-demo.js"
+  "/": "pages/index.js",
+  "/sap-rsm": "pages/sap-rsm.js"
 }
