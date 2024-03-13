@@ -4,5 +4,5 @@
   "/_document": "pages/_document.js",
   "/sap-business-one": "pages/sap-business-one.js",
   "/a-propos": "pages/a-propos.js",
-  "/": "pages/index.js"
+  "/page-demo": "pages/page-demo.js"
 }
