@@ -55,7 +55,6 @@ const swiperOptions = {
 export default function SliderB1() {
     return (
         <>
-
             <section className="testimonial-section">
                 <div className="bg bg-pattern-7" />
                 <div className="auto-container">
@@ -69,9 +68,6 @@ export default function SliderB1() {
                                     <p>Forts de leur expertise reconnue sur SAP Business One, nos experts ERP chez Croissance Numerique vous accompagnent pas à pas dans le déploiement,
                                 la formation et le support de votre solution.</p>
                                 </div>
-                                {/* <div className="info-box">
-                                    <i className="icon flaticon-recommend" />
-                                </div> */}
                             </div>
                         </div>
                         {/* Testimonial Column */}

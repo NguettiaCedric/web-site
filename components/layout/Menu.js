@@ -29,6 +29,7 @@ export default function Menu() {
                         <li><Link href="/sap-business-one">SAP Business One</Link></li>
                         <li><Link href="/sap-rsm">SAP RSM</Link></li>
                         <li><Link href="/switch">Switch</Link></li>
+                        <li><Link href="/formation">Formation</Link></li>
                     </ul>
                 </li>
                

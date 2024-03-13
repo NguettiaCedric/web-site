@@ -4899,8 +4899,9 @@ Section Title
   color: var(--theme-color1);
 }
 .about-section-two .info-box .icon {
-  font-size: 14px;
-  color: var(--theme-color1);
+  font-size: 21px;
+  /* color: var(--theme-color1); */
+  color: #0d0d0c;
   margin-right: 5px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
