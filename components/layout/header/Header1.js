@@ -77,9 +77,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
                         </div>
 
-
-
-
                     </div>
                 </div>
                 {/* Mobile Menu  */}
