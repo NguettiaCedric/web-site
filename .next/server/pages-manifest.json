@@ -2,7 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/sap-rsm": "pages/sap-rsm.js",
   "/sap-business-one": "pages/sap-business-one.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/a-propos": "pages/a-propos.js",
+  "/page-projets": "pages/page-projets.js",
+  "/projet-cargill": "pages/projet-cargill.js"
 }

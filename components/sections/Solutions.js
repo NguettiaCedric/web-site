@@ -99,6 +99,7 @@ export default function Solutions() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </section>
         </>

@@ -16,10 +16,20 @@ export default function Menu() {
 
 
                 <li className="dropdown"><Link href="#">Services</Link>
-                    <ul>
-                        <li><Link href="/integration-de-solution">Integration de Solutions</Link></li>
-                        <li><Link href="/accompagnement-digital">Accompagnement Digital</Link></li>
-                        <li><Link href="/developpement-web">Développement web</Link></li>
+                    <ul className="scrollable-menu">
+                        <li><Link className="menu-fs" href="/integration-de-solution">Integration de Solutions</Link></li>
+                        <li><Link  className="menu-fs" href="/accompagnement-digital">Accompagnement Digital</Link></li>
+                        <li><Link  className="menu-fs" href="/developpement-web">Développement web</Link></li>
+
+                        <li><Link  className="menu-fs" href="/integration-sap-business-one">Intégration SAP Business One</Link></li>
+                        <li><Link className="menu-fs"  href="/integration-sap-rsm">Intégration SAP RSM</Link></li>
+                        <li><Link  className="menu-fs" href="/formation-sap-conduite-du-changement">Formation SAP & Conduite du changement</Link></li>
+                        <li><Link  className="menu-fs" href="/developpement-web">Support & Maintenance</Link></li>
+                        <li><Link  className="menu-fs" href="/support-maintenance">Audit de Système d'information</Link></li>
+                        <li><Link  className="menu-fs" href="/audit-de-systeme-information">Audit de Système d'information</Link></li>
+                        <li><Link  className="menu-fs" href="/consulting-metier">Consulting métier</Link></li>
+                        <li><Link  className="menu-fs" href="/data-analytics">Data Analytics</Link></li>
+                        <li><Link  className="menu-fs" href="/Cybersécurite">Cybersécurité</Link></li>
                     </ul>
                 </li>
 
@@ -29,7 +39,7 @@ export default function Menu() {
                         <li><Link href="/sap-business-one">SAP Business One</Link></li>
                         <li><Link href="/sap-rsm">SAP RSM</Link></li>
                         <li><Link href="/switch">Switch</Link></li>
-                        <li><Link href="/formation">Formation</Link></li>
+                        {/* <li><Link href="/formation">Formation</Link></li> */}
                     </ul>
                 </li>
                

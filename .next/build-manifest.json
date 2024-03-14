@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -22,15 +27,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/a-propos": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/a-propos.js"
+    ],
+    "/page-projets": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/page-projets.js"
+    ],
+    "/projet-cargill": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/projet-cargill.js"
+    ],
     "/sap-business-one": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/sap-business-one.js"
-    ],
-    "/sap-rsm": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sap-rsm.js"
     ]
   },
   "ampFirstPages": []

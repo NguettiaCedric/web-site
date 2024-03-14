@@ -14098,6 +14098,15 @@ Sidebar
 
 /* ======================= Mon css ======================================= */
 
+.scrollable-menu {
+  /* ajustez cette valeur selon vos besoins */
+  max-height: 300px; 
+  overflow-y: auto;
+}
+
+.menu-fs{
+  font-size: 12px;
+}
 
 .testimonial-block .info-box1 {
   position: relative;
