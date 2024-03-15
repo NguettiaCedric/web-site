@@ -2,9 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/sap-business-one": "pages/sap-business-one.js",
   "/": "pages/index.js",
-  "/a-propos": "pages/a-propos.js",
-  "/page-projets": "pages/page-projets.js",
-  "/projet-cargill": "pages/projet-cargill.js"
+  "/integration-sap-business-one": "pages/integration-sap-business-one.js",
+  "/audit-de-systeme-information": "pages/audit-de-systeme-information.js",
+  "/data-analytics": "pages/data-analytics.js",
+  "/a-propos": "pages/a-propos.js"
 }

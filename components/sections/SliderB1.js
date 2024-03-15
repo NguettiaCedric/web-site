@@ -65,8 +65,11 @@ export default function SliderB1() {
                                 <div className="sec-title">
                                     {/* <span className="sub-title">Témoignage</span> */}
                                     <h3>Une mise en œuvre sur-mesure pour un démarrage rapide</h3>
-                                    <p>Forts de leur expertise reconnue sur SAP Business One, nos experts ERP chez Croissance Numerique vous accompagnent pas à pas dans le déploiement,
-                                la formation et le support de votre solution.</p>
+                                    <p>
+                                        Forts de leur expertise reconnue sur SAP Business One, 
+                                        nos experts ERP chez Croissance Numerique vous accompagnent pas à pas dans le déploiement,
+                                        la formation et le support de votre solution.
+                                    </p>
                                 </div>
                             </div>
                         </div>

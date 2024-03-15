@@ -17,21 +17,21 @@ export default function Menu() {
 
                 <li className="dropdown"><Link href="#">Services</Link>
                     <ul className="scrollable-menu">
-                        <li><Link className="menu-fs" href="/integration-de-solution">Integration de Solutions</Link></li>
-                        <li><Link  className="menu-fs" href="/accompagnement-digital">Accompagnement Digital</Link></li>
-                        <li><Link  className="menu-fs" href="/developpement-web">Développement web</Link></li>
-
                         <li><Link  className="menu-fs" href="/integration-sap-business-one">Intégration SAP Business One</Link></li>
                         <li><Link className="menu-fs"  href="/integration-sap-rsm">Intégration SAP RSM</Link></li>
+                        <li><Link  className="menu-fs" href="/developpement-web">Développement web</Link></li>
                         <li><Link  className="menu-fs" href="/formation-sap-conduite-du-changement">Formation SAP & Conduite du changement</Link></li>
-                        <li><Link  className="menu-fs" href="/developpement-web">Support & Maintenance</Link></li>
-                        <li><Link  className="menu-fs" href="/support-maintenance">Audit de Système d'information</Link></li>
+                        <li><Link  className="menu-fs" href="/support-maintenance">Support & Maintenance</Link></li>
                         <li><Link  className="menu-fs" href="/audit-de-systeme-information">Audit de Système d'information</Link></li>
                         <li><Link  className="menu-fs" href="/consulting-metier">Consulting métier</Link></li>
                         <li><Link  className="menu-fs" href="/data-analytics">Data Analytics</Link></li>
-                        <li><Link  className="menu-fs" href="/Cybersécurite">Cybersécurité</Link></li>
+                        <li><Link  className="menu-fs" href="/cyber-securite">Cybersécurité</Link></li>
                     </ul>
                 </li>
+
+                {/* <li><Link  className="menu-fs" href="/support-maintenance">Support & Maintenance</Link></li> */}
+                {/* <li><Link  className="menu-fs" href="/accompagnement-digital">Accompagnement Digital</Link></li> */}
+
 
                 <li className="dropdown"><Link href="#">Solutions</Link>
                     <ul>

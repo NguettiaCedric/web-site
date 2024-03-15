@@ -32,20 +32,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/a-propos.js"
     ],
-    "/page-projets": [
+    "/audit-de-systeme-information": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/page-projets.js"
+      "static/chunks/pages/audit-de-systeme-information.js"
     ],
-    "/projet-cargill": [
+    "/data-analytics": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/projet-cargill.js"
+      "static/chunks/pages/data-analytics.js"
     ],
-    "/sap-business-one": [
+    "/integration-sap-business-one": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/sap-business-one.js"
+      "static/chunks/pages/integration-sap-business-one.js"
     ]
   },
   "ampFirstPages": []

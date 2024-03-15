@@ -13789,7 +13789,7 @@ Sidebar
 .team-details__top-right {
   position: relative;
   display: block;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 @media only screen and (max-width: 991px) {
   .team-details__top-right {

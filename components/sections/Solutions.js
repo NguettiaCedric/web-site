@@ -99,7 +99,79 @@ export default function Solutions() {
                             </div>
                         </div>
                     </div>
-                    
+
+                    {/* <div className="row">
+                        <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/serviceb1.jpg" alt="" /></figure>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-design" />
+                                    <h5 className="title">SAP Business One</h5>
+                                </div>
+                                <div className="hover-content">
+                                    <i className="icon flaticon-design" />
+                                    <h5 className="title"><Link href="/sap-business-one">SAP Business One</Link></h5>
+                                    <div className="text">SAP Business One est la référence en matière de solution de gestion.</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/serviceRsm.jpg" alt="solution digital" /></figure>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-megaphone" />
+                                    <h5 className="title">SAP RSM</h5>
+                                </div>
+                                <div className="hover-content">
+                                    <i className="icon flaticon-megaphone" />
+                                    <h5 className="title"><Link href="/sap-rsm">SAP RSM</Link></h5>
+                                    <div className="text">
+                                    SAP RSM (Rural Sourcing Management), Gestion de l'approvisionnement rural en français est une application...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box"> 
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/dev-solution.png" alt="" /></figure>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon  flaticon-web-development" />
+                                    <h5 className="title">Switch</h5>
+                                </div>
+                                <div className="hover-content">
+                                    <i className="icon  flaticon-web-development" />
+                                    <h5 className="title"><Link href="/developpement-web">Application <br />Switch</Link></h5>
+                                    <div className="text">Nous mettons notre expertise à votre service pour vous guider tout au long du développement d'applications.</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/swtich-solution.png" alt="swtich" /></figure>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-visitor" />
+                                    <h5 className="title">Other <br/> <br/> </h5>
+                                </div>
+                                <div className="hover-content">
+                                    <i className="icon flaticon-visitor" />
+                                    <h5 className="title"><Link href="/switch">Other <br /></Link></h5>
+                                    <div className="text">There are many variations of passages of available but the majority.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
                 </div>
             </section>
         </>
