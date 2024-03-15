@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/sap-rsm": "pages/sap-rsm.js",
   "/": "pages/index.js",
-  "/support-maintenance": "pages/support-maintenance.js",
-  "/sap-rsm": "pages/sap-rsm.js"
+  "/support-maintenance": "pages/support-maintenance.js"
 }
