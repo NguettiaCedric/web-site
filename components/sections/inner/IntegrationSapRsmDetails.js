@@ -246,8 +246,9 @@ export default function IntegrationSapRsmDetails() {
                 <div className="team-details__top-content">
                   <h3 className="">Tableau de bord agricole avancé</h3>
                   <p className="" style={{textAlign: 'justify'}}>
-                  Pilotez en temps réel vos rendements, volumes, certification...et assurez la qualité optimale le long de la chaîne d'approvisionnement.
-  
+                  Pilotez en temps réel vos rendements, volumes, certification et assurez la qualité optimale le long de la chaîne d'approvisionnement.
+                    <br />
+                    Confiez-nous dès aujourd'hui la mise en place réussie de la traçabilité SAP RSM pour votre exploitation agricole.
                   </p>                    
                 </div>                 
               </div>

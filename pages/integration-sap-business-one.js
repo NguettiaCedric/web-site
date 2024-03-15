@@ -9,7 +9,7 @@ export default function Teampage() {
     return (
         <>
             <Layout headerStyle={2} footerStyle={1}>
-                <PageTitle pageName="Integration SAP Business One" />
+                <PageTitle pageName="Intégration SAP Business One" />
                 <IntegrationSapBusinessOneDetails  />
                 {/* <CTA  /> */}
                 

@@ -27,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/sap-rsm": [
+    "/consulting-metier": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/sap-rsm.js"
+      "static/chunks/pages/consulting-metier.js"
+    ],
+    "/cyber-securite": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/cyber-securite.js"
+    ],
+    "/data-analytics": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/data-analytics.js"
     ]
   },
   "ampFirstPages": []
