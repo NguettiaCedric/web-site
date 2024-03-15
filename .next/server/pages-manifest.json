@@ -3,8 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/integration-sap-business-one": "pages/integration-sap-business-one.js",
-  "/audit-de-systeme-information": "pages/audit-de-systeme-information.js",
-  "/data-analytics": "pages/data-analytics.js",
+  "/integration-sap-rsm": "pages/integration-sap-rsm.js",
   "/a-propos": "pages/a-propos.js"
 }

@@ -6,7 +6,7 @@ export default function BusinessOne({ addClass }) {
         <>
 
             <section className={`about-section ${addClass}`} style={{marginTop:'1px'}}>
-                <div className="auto-container">
+                <div className="auto-container fsb1">
                     <div className="row">
                         {/* Content Column */}
                         <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight">
