@@ -28,16 +28,21 @@ export default function MobileMenu() {
     return (
         <>
             <ul className="navigation clearfix">
-                {/*Keep This Empty / Menu will come through Javascript*/}
-                <li className=""><Link onClick={() => { handleMobileMenu()}} href="/">Accueil</Link></li>                    
-                <li className=""><Link onClick={() => { handleMobileMenu()}} href="/a-propos">A propos</Link></li>                    
+                {/*Keep This Empty / Menu will come through Javascript*/}                  
                                
                 {/* <li><Link href="/page-about">About</Link></li> */}
                 <li className="dropdown"><Link href="/page-team">Services</Link>
                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                        <li><Link onClick={() => { handleMobileMenu()}} href="/integration-de-solution">Integration De Solutions</Link></li>
-                        <li><Link onClick={() => { handleMobileMenu()}} href="/accompagnement-digital">Accompagnement Digital</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/integration-sap-business-one">Intégration SAP Business One</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/integration-sap-rsm">Intégration SAP RSM</Link></li>
                         <li><Link onClick={() => { handleMobileMenu()}} href="/developpement-web">Développement Web</Link></li>
+
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/formation-sap-conduite-du-changement">Formation SAP & Conduite du changement</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/support-maintenance">Support & Maintenance</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/audit-de-systeme-information">Audit de Système d'information</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/consulting-metier">Consulting métier</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/data-analytics">Data Analytics</Link></li>
+                        <li><Link onClick={() => { handleMobileMenu()}} href="/cyber-securite">Cybersécurité</Link></li>
                     </ul>
                     <div className="dropdown-btn" onClick={() => handleClick(2)}><i className="fa fa-angle-down" /></div>
                 </li>

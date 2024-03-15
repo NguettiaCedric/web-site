@@ -31,11 +31,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/a-propos.js"
-    ],
-    "/integration-sap-rsm": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/integration-sap-rsm.js"
     ]
   },
   "ampFirstPages": []
