@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/consulting-metier": "pages/consulting-metier.js",
-  "/data-analytics": "pages/data-analytics.js",
-  "/cyber-securite": "pages/cyber-securite.js"
+  "/audit-de-systeme-information": "pages/audit-de-systeme-information.js"
 }

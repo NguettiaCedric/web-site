@@ -27,20 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/consulting-metier": [
+    "/audit-de-systeme-information": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/consulting-metier.js"
-    ],
-    "/cyber-securite": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/cyber-securite.js"
-    ],
-    "/data-analytics": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/data-analytics.js"
+      "static/chunks/pages/audit-de-systeme-information.js"
     ]
   },
   "ampFirstPages": []
