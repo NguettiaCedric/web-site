@@ -56,7 +56,7 @@ export default function Menu() {
                     </ul>
                 </li> */}
                 <li><Link href="/page-projets">Projets réalisés</Link></li>
-                <li><Link href="#">Blog</Link></li>
+                <li><Link href="/blog">Blog</Link></li>
                 {/* <li><Link href="/page-demo">Demande de demo</Link></li> */}
                 <li><Link href="/page-contact">Contact</Link></li>
                 

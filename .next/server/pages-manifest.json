@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/audit-de-systeme-information": "pages/audit-de-systeme-information.js"
+  "/audit-de-systeme-information": "pages/audit-de-systeme-information.js",
+  "/blog": "pages/blog.js"
 }
