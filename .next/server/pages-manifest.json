@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/audit-de-systeme-information": "pages/audit-de-systeme-information.js",
-  "/blog": "pages/blog.js"
+  "/sap-business-one": "pages/sap-business-one.js",
+  "/sap-rsm": "pages/sap-rsm.js"
 }

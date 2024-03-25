@@ -15,8 +15,12 @@ export default function Rsm({ addClass }) {
                                     {/* <span className="sub-title">get to know us</span> */}
                                     <h2>Découvrez la solution SAP RSM</h2>
                                     <div className="text" style={{textAlign:'justify'}}>
-                                    Gagnez en contrôle sur votre entreprise ou filiale avec SAP Business One. 
-                                    Ce logiciel de gestion pour petites entreprises relie et rationalise vos processus, et s'adapte à votre croissance.
+                                   {/*  Gagnez en contrôle sur votre entreprise ou filiale avec SAP Business One. 
+                                    Ce logiciel de gestion pour petites entreprises relie et rationalise vos processus, et s'adapte à votre croissance. */}
+
+                                    Optimisez votre chaîne d'approvisionnement rurale grâce à la solution de traçabilité la plus flexible du marché, SAP Rural Sourcing Management (SAP RSM). 
+                                    Spécialement conçue pour les exploitations agricoles, 
+                                    cette solution de gestion intégrée vous offre une visibilité totale sur l'ensemble de vos activités.
                                     </div>
                                 </div>
                                 <div className="desktop-only">

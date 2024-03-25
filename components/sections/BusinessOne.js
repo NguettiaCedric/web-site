@@ -15,8 +15,11 @@ export default function BusinessOne({ addClass }) {
                                     {/* <span className="sub-title">get to know us</span> */}
                                     <h2>Découvrez la solution SAP Business One</h2>
                                     <div className="text" style={{textAlign:'justify'}}>
-                                    Est un logiciel qui offre une suite complète d'outils de gestion intégrés pour aider les entreprises à gérer efficacement leurs opérations commerciales, y compris la gestion des ventes, des achats, des stocks, de la comptabilité, des ressources humaines et plus encore.
-                                    SAP Business One permet aux entreprises de rationaliser leurs processus métier, d'améliorer leur visibilité sur les opérations et de prendre des décisions stratégiques basées sur des données en temps réel.
+                                    {/* Est un logiciel qui offre une suite complète d'outils de gestion intégrés pour aider les entreprises à gérer efficacement leurs opérations commerciales, y compris la gestion des ventes, des achats, des stocks, de la comptabilité, des ressources humaines et plus encore.
+                                    SAP Business One permet aux entreprises de rationaliser leurs processus métier, d'améliorer leur visibilité sur les opérations et de prendre des décisions stratégiques basées sur des données en temps réel. */} 
+                                    SAP Business One est la référence en matière de solution de gestion intégrée spécialement conçue pour les petites et moyennes entreprises. Reconnue pour sa facilité d'utilisation et sa puissance, elle vous apporte tous les outils nécessaires pour optimiser et centraliser 
+                                    la gestion de vos processus métier au quotidien.
+
                                     </div>
                                 </div>
                                 {/* Info Box */}
